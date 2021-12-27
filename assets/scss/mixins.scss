@@ -10,6 +10,14 @@
   border-radius: 50%;
 }
 
+@mixin triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent $color-green;
+}
+
 @mixin title {
   font-size: 38px;
   line-height: 50px;
@@ -30,4 +38,8 @@
   font-size: 14px;
   line-height: 28px;
   letter-spacing: -0.3px;
+}
+
+@mixin border {
+  border: 1px solid $color-grey-border;
 }
