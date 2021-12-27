@@ -1,0 +1,54 @@
+$step: 4px;
+
+$sides: (
+  t: (
+    "-top",
+  ),
+  b: (
+    "-bottom",
+  ),
+  r: (
+    "-right",
+  ),
+  l: (
+    "-left",
+  ),
+  a: (
+    "",
+  ),
+);
+
+$marginNames: (
+  margin: "m",
+);
+
+$paddingNames: (
+  padding: "p",
+);
+
+@mixin create-paddings($step, $sides, $paddingNames) {
+  @each $sideLetter, $sideName in $sides {
+    @each $paddingName, $paddingLetter in $paddingNames {
+      @for $i from 0 through 15 {
+        .#{$paddingLetter}#{$sideLetter}-#{$i} {
+          #{$paddingName}#{$sideName}: $i * $step !important;
+        }
+      }
+    }
+  }
+}
+
+@mixin create-margins($step, $sides, $marginNames) {
+  @each $sideLetter, $sideName in $sides {
+    @each $marginName, $marginLetter in $marginNames {
+      @for $i from 0 through 15 {
+        .#{$marginLetter}#{$sideLetter}-#{$i} {
+          #{$marginName}#{$sideName}: $i * $step !important;
+        }
+      }
+    }
+  }
+}
+
+@include create-paddings($step, $sides, $paddingNames);
+@include create-margins($step, $sides, $marginNames);

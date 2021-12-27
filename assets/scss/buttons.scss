@@ -1,0 +1,40 @@
+@import "variables";
+
+.start-trial-button {
+  transition: 0.15s all ease-out;
+  @include font-inter-reg;
+  background: $color-green;
+  color: $color-green-darken-1;
+  width: 227px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  &:hover {
+    background: $color-green-darken-1;
+    color: $color-green;
+  }
+}
+
+.button-inactive {
+  background: $color-green-lighten-1;
+  &:hover {
+    background: $color-green-darken-1;
+    color: $color-green;
+  }
+}
+
+.period-button-active {
+  background-color: $color-green;
+}
+
+.attach-button {
+  transition: 0.15s all ease-in;
+  background-color: $color-attach-button;
+  cursor: pointer;
+  &:hover {
+    background: $color-grey-lighten-1;
+  }
+}

@@ -1,0 +1,73 @@
+//Colors
+
+$color-white: white;
+$color-black: black;
+
+//Normalize
+
+li {
+  list-style: none;
+}
+
+//Light grey color for some text (header nav, footer lists names)
+$color-grey-lighten-1: rgba(219, 228, 241, 1);
+
+//Light grey color for footer lists items
+$color-grey-lighten-2: rgba(248, 251, 254, 1);
+
+$color-grey-border: rgba(232, 232, 234, 1);
+
+//Dark grey color for items descriptions, input forms, placeholders, reviewers info
+$color-grey-darken-1: rgba(50, 50, 50, 1);
+
+$color-grey-2: rgba(135, 139, 144, 1);
+
+$color-attach-button: rgba(242, 245, 248, 1);
+
+//Bright green color for some buttons
+$color-green: rgba(80, 227, 194, 1);
+
+//Light green color for some buttons
+$color-green-lighten-1: rgba(80, 227, 194, 0.14);
+
+//Dark green color for button text
+$color-green-darken-1: rgba(15, 61, 51, 1);
+
+//Background color for hero-2
+$hero-2-background: rgba(34, 45, 61, 1);
+
+//Background color for 'Manage everything'
+$background-color-grey: #f8fbfe;
+
+//White transparent color for circle in hero-2
+$color-white-transparent: rgba(255, 255, 255, 0.19);
+
+//Crossed text color
+$color-text-crossed: rgba(142, 142, 142, 1);
+
+//No credit card required (in price-card) color
+$color-footnote: rgba(142, 142, 142, 1);
+
+//Colors for shadow
+$color-shadow-black: rgba(0, 0, 0, 0.103346);
+$color-shadow-blue: rgba(67, 87, 138, 0.29);
+
+//Circles & dots colors
+$color-red-circle: rgba(252, 92, 101, 0.06);
+$color-red-dot: rgba(252, 92, 101, 1);
+
+$color-green-circle: rgba(80, 227, 194, 0.06);
+$color-green-dot: rgba(80, 227, 194, 1);
+
+$color-purple-circle: rgba(166, 101, 251, 0.06);
+$color-purple-dot: rgba(166, 101, 251, 1);
+
+//Gradients
+$blue-gradient: linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
+$white-gradient: linear-gradient(
+  180deg,
+  rgba(248, 251, 254, 0.0001) -26.82%,
+  #f8fbfe 100%
+);
+
+//Big margins
