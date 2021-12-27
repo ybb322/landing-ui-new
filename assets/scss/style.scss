@@ -146,9 +146,7 @@ body {
   }
   &__title {
     @include font-inter-bold;
-    font-size: 38px;
-    line-height: 50px;
-    letter-spacing: -0.3px;
+    @include title;
     color: $color-black;
   }
   &__subtitle {
@@ -167,9 +165,7 @@ body {
   }
   &__title {
     @include font-inter-bold;
-    font-size: 38px;
-    line-height: 50px;
-    letter-spacing: -0.3px;
+    @include title;
     color: $color-black;
   }
   &__subtitle {
@@ -227,10 +223,8 @@ body {
   }
   &__title {
     @include font-inter-bold;
+    @include title;
     font-weight: 100;
-    font-size: 38px;
-    line-height: 50px;
-    letter-spacing: -0.3px;
     color: $color-white;
   }
   &__subtitle {
@@ -246,10 +240,8 @@ body {
   &__title {
     margin-top: 240px;
     @include font-inter-bold;
+    @include title;
     font-weight: 100;
-    font-size: 38px;
-    line-height: 50px;
-    letter-spacing: -0.3px;
     color: $color-black;
   }
   &__subtitle {
@@ -434,9 +426,7 @@ body {
   margin-top: 100px;
   &__title {
     @include font-inter-bold;
-    font-size: 28px;
-    line-height: 50px;
-    letter-spacing: -0.221053px;
+    @include title;
     color: $color-black;
   }
 }
@@ -445,9 +435,7 @@ body {
   margin-top: 120px;
   &__title {
     @include font-inter-bold;
-    font-size: 38px;
-    line-height: 50px;
-    letter-spacing: -0.3px;
+    @include title;
     color: $color-black;
   }
   &__input-background {

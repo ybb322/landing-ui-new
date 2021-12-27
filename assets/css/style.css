@@ -284,10 +284,10 @@ body {
 }
 .hero-2__title {
   font-family: inter-bold;
-  font-weight: 100;
   font-size: 38px;
   line-height: 50px;
   letter-spacing: -0.3px;
+  font-weight: 100;
   color: white;
 }
 .hero-2__subtitle {
@@ -301,10 +301,10 @@ body {
 .choose-plan__title {
   margin-top: 240px;
   font-family: inter-bold;
-  font-weight: 100;
   font-size: 38px;
   line-height: 50px;
   letter-spacing: -0.3px;
+  font-weight: 100;
   color: black;
 }
 .choose-plan__subtitle {
@@ -492,9 +492,9 @@ body {
 }
 .manage-your-team__title {
   font-family: inter-bold;
-  font-size: 28px;
+  font-size: 38px;
   line-height: 50px;
-  letter-spacing: -0.221053px;
+  letter-spacing: -0.3px;
   color: black;
 }
 
