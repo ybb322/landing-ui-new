@@ -21,7 +21,12 @@
   line-height: 32px;
 }
 
-@mixin sub-subtitle {
+@mixin subtitle-2 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@mixin subtitle-3 {
   font-size: 14px;
   line-height: 28px;
   letter-spacing: -0.3px;

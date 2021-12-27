@@ -74,6 +74,7 @@ body {
 .header__nav {
   font-family: inter-light;
   font-size: 16px;
+  line-height: 28px;
   color: #dbe4f1;
 }
 .header a {
@@ -418,9 +419,9 @@ body {
 }
 .brands__title {
   font-family: inter-reg;
-  color: #878b90;
   font-size: 16px;
   line-height: 28px;
+  color: #878b90;
 }
 
 .growbots-logo {
@@ -469,17 +470,16 @@ body {
 }
 .reviews__name {
   font-family: inter-bold;
-  color: #323232;
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: -0.3px;
+  color: #323232;
 }
 .reviews__from {
   font-family: inter-reg;
-  color: #323232;
   font-size: 14px;
   line-height: 28px;
   letter-spacing: -0.3px;
+  color: #323232;
 }
 .reviews__person-info {
   justify-self: end;
@@ -570,8 +570,9 @@ body {
 }
 .footer__nav {
   font-family: inter-reg;
-  z-index: 5;
   font-size: 16px;
+  line-height: 28px;
+  z-index: 5;
   color: #f8fbfe;
 }
 .footer__nav li:first-child {

@@ -18,7 +18,7 @@ body {
   height: 50px;
   &__nav {
     @include font-inter-light;
-    font-size: 16px;
+    @include subtitle-2;
     color: $color-grey-lighten-1;
   }
   a {
@@ -54,7 +54,7 @@ body {
   }
   &__sub-subtitle {
     @include font-inter-light;
-    @include sub-subtitle;
+    @include subtitle-3;
     color: $color-grey-lighten-1;
   }
 }
@@ -336,7 +336,7 @@ body {
   }
   &__footnote {
     @include font-inter-reg;
-    @include sub-subtitle;
+    @include subtitle-3;
     color: $color-footnote;
   }
 }
@@ -345,9 +345,8 @@ body {
   margin-top: 120px;
   &__title {
     @include font-inter-reg;
+    @include subtitle-2;
     color: $color-grey-2;
-    font-size: 16px;
-    line-height: 28px;
   }
 }
 
@@ -392,15 +391,13 @@ body {
   }
   &__name {
     @include font-inter-bold;
+    @include subtitle-2;
     color: $color-grey-darken-1;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: -0.3px;
   }
   &__from {
     @include font-inter-reg;
+    @include subtitle-3;
     color: $color-grey-darken-1;
-    @include sub-subtitle;
   }
   &__person-info {
     justify-self: end;
@@ -493,8 +490,8 @@ body {
       opacity: 0.7;
     }
     @include font-inter-reg;
+    @include subtitle-2;
     z-index: 5;
-    font-size: 16px;
     color: $color-grey-lighten-2;
   }
   &__bottom-item {
