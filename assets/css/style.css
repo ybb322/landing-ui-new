@@ -111,6 +111,7 @@ body {
   font-family: inter-light;
   font-size: 14px;
   line-height: 28px;
+  letter-spacing: -0.3px;
   color: #dbe4f1;
 }
 
@@ -162,11 +163,11 @@ body {
 }
 .advantages__subtitle {
   font-family: inter-reg;
+  font-size: 18px;
+  line-height: 32px;
   color: #323232;
   font-weight: 400;
   max-width: 307px;
-  font-size: 18px;
-  line-height: 34px;
 }
 
 .block-background {
@@ -212,9 +213,9 @@ body {
 }
 .manage-everything__subtitle {
   font-family: inter-reg;
-  max-width: 436px;
   font-size: 18px;
   line-height: 32px;
+  max-width: 436px;
   color: #323232;
 }
 
@@ -233,9 +234,9 @@ body {
 }
 .build-better__subtitle {
   font-family: inter-reg;
-  max-width: 436px;
   font-size: 18px;
   line-height: 32px;
+  max-width: 436px;
   color: #323232;
 }
 .build-better__img-wrapper {
@@ -408,7 +409,7 @@ body {
   font-family: inter-reg;
   font-size: 14px;
   line-height: 28px;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.3px;
   color: #8e8e8e;
 }
 
@@ -457,9 +458,9 @@ body {
 }
 .reviews__quote {
   font-family: inter-reg;
-  font-weight: 500;
   font-size: 18px;
   line-height: 32px;
+  font-weight: 500;
   letter-spacing: -0.1px;
   max-width: 274px;
   min-height: 165px;

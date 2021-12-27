@@ -54,8 +54,7 @@ body {
   }
   &__sub-subtitle {
     @include font-inter-light;
-    font-size: 14px;
-    line-height: 28px;
+    @include sub-subtitle;
     color: $color-grey-lighten-1;
   }
 }
@@ -95,11 +94,10 @@ body {
   }
   &__subtitle {
     @include font-inter-reg;
+    @include subtitle;
     color: $color-grey-darken-1;
     font-weight: 400;
     max-width: 307px;
-    font-size: 18px;
-    line-height: 34px;
   }
 }
 
@@ -151,9 +149,8 @@ body {
   }
   &__subtitle {
     @include font-inter-reg;
+    @include subtitle;
     max-width: 436px;
-    font-size: 18px;
-    line-height: 32px;
     color: $color-grey-darken-1;
   }
 }
@@ -170,9 +167,8 @@ body {
   }
   &__subtitle {
     @include font-inter-reg;
+    @include subtitle;
     max-width: 436px;
-    font-size: 18px;
-    line-height: 32px;
     color: $color-grey-darken-1;
   }
   &__img-wrapper {
@@ -229,8 +225,7 @@ body {
   }
   &__subtitle {
     @include font-inter-light;
-    font-size: 18px;
-    line-height: 32px;
+    @include subtitle;
     color: $color-white;
     max-width: 750px;
   }
@@ -246,8 +241,7 @@ body {
   }
   &__subtitle {
     @include font-inter-reg;
-    font-size: 18px;
-    line-height: 32px;
+    @include subtitle;
     font-weight: 100;
     color: $color-grey-darken-1;
     max-width: 750px;
@@ -331,8 +325,7 @@ body {
     right: 28px;
   }
   &__bonus {
-    font-size: 18px;
-    line-height: 32px;
+    @include subtitle;
     letter-spacing: -0.45px;
     color: $color-black;
   }
@@ -343,9 +336,7 @@ body {
   }
   &__footnote {
     @include font-inter-reg;
-    font-size: 14px;
-    line-height: 28px;
-    letter-spacing: -0.4px;
+    @include sub-subtitle;
     color: $color-footnote;
   }
 }
@@ -391,9 +382,8 @@ body {
   }
   &__quote {
     @include font-inter-reg;
+    @include subtitle;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
     letter-spacing: -0.1px;
     max-width: 274px;
     min-height: 165px;
@@ -410,9 +400,7 @@ body {
   &__from {
     @include font-inter-reg;
     color: $color-grey-darken-1;
-    font-size: 14px;
-    line-height: 28px;
-    letter-spacing: -0.3px;
+    @include sub-subtitle;
   }
   &__person-info {
     justify-self: end;
