@@ -5,14 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing-New</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/spacing.css" />
   </head>
   <body>
     <div class="container">
@@ -21,32 +15,34 @@
         <div class="header mt-8">
           <div class="row d-flex align-items-center justify-content-between">
             <div class="header__logo col-1">
-              <img src="assets/images/header/berlin-logo.svg" alt="" />
+              <a href="#"><img src="assets/images/header/berlin-logo.svg" alt="" /></a>
             </div>
+            <nav class="col-3">
             <ul
               class="
                 header__nav
-                pr-0
-                ml-4
                 d-flex
                 justify-content-between
-                col-3
                 align-items-center
                 mb-0
+                pa-0
               "
             >
                <a href="#"> <li class="header__nav-item">Demos</li></a>
               <a href="#"> <li class="header__nav-item">Pages</li></a>
               <a href="#"> <li class="header__nav-item">Support</li></a>
             </ul>
+            </nav>
           </div>
         </div>
-        <div class="hero__content d-flex flex-column align-items-center">
-          <h1 class="hero__title text-center">Manage your team, faster!</h1>
-          <h2 class="hero__subtitle text-center mt-1">
+        <div class="hero__content">
+          <h1 class="hero__title">Manage your team, faster!</h1>
+          <div class="hero__subtitle-wrapper d-flex justify-content-center">
+          <p class="hero__subtitle mt-1">
             Create custom landing pages with Berlin that convert more visitors
             than any website.
-          </h2>
+          </p>
+          </div>
           <button class="start-trial-button mt-7">
             Start free 14 days trial
           </button>
@@ -55,11 +51,11 @@
       </div>
       <div class="advantages row">
         <div
-          class="advantages__item d-flex flex-column align-items-center col-4"
+          class="advantages__item col-4"
         >
           <div
             class="
-              advantages__red-circle
+              advantages__red-circle circle
               d-flex
               justify-content-center
               align-items-center
@@ -67,19 +63,20 @@
           >
             <div class="advantages__red-dot"></div>
           </div>
-          <div class="advantages__title text-center mt-8">Single Platform</div>
-          <div class="advantages__subtitle text-center mt-6">
-            Create custom landing pages with Berlin that convert more visitors
-            than any website.
+          <div class="advantages__title mt-8">Single Platform</div>
+          <div class="advantages__subtitle-wrapper d-flex justify-content-center mt-6">
+            <p class="advantages__subtitle"> Create custom landing pages with Berlin that convert more visitors
+            than any website.</p>
           </div>
         </div>
 
         <div
-          class="advantages__item d-flex flex-column align-items-center col-4"
+          class="advantages__item col-4"
         >
+        
           <div
             class="
-              advantages__green-circle
+              advantages__green-circle circle
               d-flex
               justify-content-center
               align-items-center
@@ -87,21 +84,21 @@
           >
             <div class="advantages__green-dot"></div>
           </div>
-          <div class="advantages__title text-center mt-8">
+          <div class="advantages__title mt-8">
             Faster Communication
           </div>
-          <div class="advantages__subtitle text-center mt-6">
-            Create custom landing pages with Berlin that convert more visitors
-            than any website.
+          <div class="advantages__subtitle-wrapper d-flex justify-content-center mt-6">
+            <p class="advantages__subtitle"> Create custom landing pages with Berlin that convert more visitors
+            than any website.</p>
           </div>
         </div>
 
         <div
-          class="advantages__item d-flex flex-column align-items-center col-4"
+          class="advantages__item col-4"
         >
           <div
             class="
-              advantages__purple-circle
+              advantages__purple-circle circle
               d-flex
               justify-content-center
               align-items-center
@@ -109,12 +106,12 @@
           >
             <div class="advantages__purple-dot"></div>
           </div>
-          <div class="advantages__title text-center mt-8">
+          <div class="advantages__title mt-8">
             Everything in One Place
           </div>
-          <div class="advantages__subtitle text-center mt-6">
-            Create custom landing pages with Berlin that convert more visitors
-            than any website.
+          <div class="advantages__subtitle-wrapper d-flex justify-content-center mt-6">
+            <p class="advantages__subtitle"> Create custom landing pages with Berlin that convert more visitors
+            than any website.</p>
           </div>
         </div>
       </div>
@@ -139,11 +136,11 @@
             <div class="manage-everything__title">
               Manage everything faster in single place.
             </div>
-            <div class="manage-everything__subtitle mt-7">
+            <p class="manage-everything__subtitle mt-7">
               Create custom landing pages with Berlin that convert more visitors
               than any website. With lots of unique blocks, you can easily build
               a page without coding.
-            </div>
+            </p>
             <button class="start-trial-button button-inactive mt-7">
               Start free 14 days trial
             </button>
@@ -157,11 +154,11 @@
           <div class="build-better__title">
             Build better team work faster and better!
           </div>
-          <div class="build-better__subtitle mt-7">
+          <p class="build-better__subtitle mt-7">
             Create custom landing pages with Berlin that convert more visitors
             than any website. With lots of unique blocks, you can easily build a
             page without coding.
-          </div>
+          </p>
           <button class="start-trial-button button-inactive mt-7">
             Start free 14 days trial
           </button>
@@ -197,28 +194,28 @@
           >
             <div class="hero-2__triangle ml-1"></div>
           </div>
-          <div class="hero-2__title mt-13 text-center">
+          <div class="hero-2__title mt-13">
             We help you to be successful
           </div>
-          <div class="hero-2__subtitle mt-5 text-center">
+          <p class="hero-2__subtitle mt-5">
             Wireframes are generally created by business analysts, user
             experience designers, developers, visual designers, and by those
             with expertise
-          </div>
+          </p>
         </div>
       </div>
     </div>
     <div class="choose-plan-background block-gradient-background">
       <div class="container">
         <div class="choose-plan d-flex flex-column align-items-center">
-          <div class="choose-plan__title text-center">
+          <div class="choose-plan__title">
             Choose a plan to start
           </div>
-          <div class="choose-plan__subtitle text-center mt-5">
+          <p class="choose-plan__subtitle mt-5">
             Wireframes are generally created by business analysts, user
             experience designers, developers, visual designers, and by those
             with expertise
-          </div>
+          </p>
           <div
             class="
               choose-plan__toggle-buttons
@@ -226,6 +223,8 @@
               justify-content-around
               align-items-center
               mt-15
+              pb-1
+              pt-1
             "
           >
             <div
@@ -234,6 +233,8 @@
                 d-flex
                 align-items-center
                 justify-content-center
+                pt-1
+                pb-1
               "
             >
               Monthly
@@ -245,6 +246,8 @@
                 align-items-center
                 justify-content-center
                 period-button-active
+                pt-1
+                pb-1
               "
             >
               Yearly
@@ -256,16 +259,16 @@
             <div class="choose-plan__price-card d-flex flex-column justify-content-between col-4 mr-4 pa-0">
                 <div class="choose-plan__info-container">
                 <div class="choose-plan__line"></div>
-              <div class="choose-plan__type mt-7 ml-11">Basic</div>
+              <p class="choose-plan__type mt-7 ml-11">Basic</p>
               <div class="choose-plan__price mt-4 ml-11">
                 <span class="choose-plan__price-currency">$</span>
                 <span class="choose-plan__price-number">19</span>
                 <span class="choose-plan__price-slash">/</span>
                 <span class="choose-plan__price-period">month</span>
               </div>
-              <div class="choose-plan__description mt-1 ml-11 col-10">
+              <p class="choose-plan__description mt-1 ml-11 col-10">
                 Good for small business launching their products less than once a year
-              </div>
+              </p>
               <ul class="choose-plan__bonus-list ml-11 mt-5">
                 <li class="choose-plan__bonus">
                   <span class="choose-plan__list-checkmark mr-3">✓</span>
@@ -292,9 +295,9 @@
               <button class="start-trial-button ml-11 mt-8">
                 Start free 14 days trial
               </button>
-              <div class="choose-plan__footnote ml-12 mt-3 mb-8">
+              <p class="choose-plan__footnote ml-12 mt-3 mb-8">
                 No credit card required
-              </div>
+              </p>
             </div>
             </div>
 
@@ -302,17 +305,17 @@
             <div class="choose-plan__price-card d-flex flex-column justify-content-between col-4 ml-4 pa-0">
                 <div class="choose-plan__info-container">
               <div class="choose-plan__line line-active"></div>
-              <div class="choose-plan__type ml-11 mt-7">Pro</div>
+              <p class="choose-plan__type ml-11 mt-7">Pro</p>
               <div class="choose-plan__price mt-4 ml-11">
                 <span class="choose-plan__price-currency">$</span>
                 <span class="choose-plan__price-number">29</span>
                 <span class="choose-plan__price-slash">/</span>
                 <span class="choose-plan__price-period">month</span>
               </div>
-              <div class="choose-plan__description mt-1 ml-11 col-10">
+              <p class="choose-plan__description mt-1 ml-11 col-10">
                 Good for small business launching their products less than once
                 a year 
-              </div>
+              </p>
               <ul class="choose-plan__bonus-list ml-11 mt-5">
                 <li class="choose-plan__bonus">
                   <span class="choose-plan__list-checkmark mr-3">✓</span>
@@ -339,17 +342,17 @@
                 <button class="start-trial-button ml-11 mt-8">
                   Start free 14 days trial
                 </button>
-                <div class="choose-plan__footnote ml-12 mt-3 mb-8">
+                <p class="choose-plan__footnote ml-12 mt-3 mb-8">
                   No credit card required
-                </div>
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="brands d-flex flex-column">
-            <div class="brands__title text-center">
+        <div class="brands">
+            <p class="brands__title">
               We are proud to have some big brands as our customer
-            </div>
+            </p>
             <div class="brands__items d-flex flex-row justify-content-around mt-10">
               <img
                 src="assets/images/brands/growbots-logo.svg"
@@ -381,12 +384,12 @@
     <div class="container">
       <div class="reviews d-flex justify-content-center">
         <div class="reviews__quote-card d-flex flex-column col-4 card-1">
-          <div class="reviews__quote-mark ml-11">”</div>
-          <div class="reviews__quote ml-11">
+          <span class="reviews__quote-mark ml-11">”</span>
+          <p class="reviews__quote ml-11">
             “You made it so simple. My new site is so much faster and easier to
             work with than my old site. I just choose the page, make the change
             and click save.”
-          </div>
+          </p>
           <div class="reviews__person-info-container d-flex flex-column justify-content-end">
             <div
               class="
@@ -401,19 +404,19 @@
                 <img src="assets/images/reviews/person-1.png" />
               </div>
               <div class="reviews__name-from ml-5">
-                <div class="reviews__name">Cameron Anderson</div>
-                <div class="reviews__from">From CrazyEggs.com</div>
+                <p class="reviews__name">Cameron Anderson</p>
+                <p class="reviews__from">From CrazyEggs.com</p>
               </div>
             </div>
           </div>
         </div>
 
         <div class="reviews__quote-card d-flex flex-column col-4 card-2">
-          <div class="reviews__quote-mark ml-11">”</div>
-          <div class="reviews__quote    ml-11">
+          <span class="reviews__quote-mark ml-11">”</span>
+          <p class="reviews__quote    ml-11">
             “Simply the best. Better than all the rest. I’d recommend this
             product to beginners and advanced users.”
-          </div>
+          </p>
           <div class="reviews__person-info-container d-flex flex-column justify-content-end">
           <div
             class="
@@ -428,19 +431,19 @@
               <img src="assets/images/reviews/person-2.png" />
             </div>
             <div class="reviews__name-from ml-5">
-              <div class="reviews__name">Ellen Austin</div>
-              <div class="reviews__from">From FashionGigs.net</div>
+              <p class="reviews__name">Ellen Austin</p>
+              <p class="reviews__from">From FashionGigs.net</p>
             </div>
           </div>
         </div>
         </div>
 
         <div class="reviews__quote-card d-flex flex-column col-4 card-3">
-          <div class="reviews__quote-mark ml-11">”</div>
-          <div class="reviews__quote ml-11">
+          <span class="reviews__quote-mark ml-11">”</span>
+          <p class="reviews__quote ml-11">
             “This is a top quality product. No need to think twice before
             purchasing, you simply could not go wrong.”
-          </div>
+          </p>
           <div class="reviews__person-info-container d-flex flex-column justify-content-end">
             <div
               class="
@@ -455,23 +458,23 @@
                 <img src="assets/images/reviews/person-3.png" />
               </div>
               <div class="reviews__name-from ml-5">
-                <div class="reviews__name">Cameron Anderson</div>
-                <div class="reviews__from">From Albarston.com</div>
+                <p class="reviews__name">Cameron Anderson</p>
+                <p class="reviews__from">From Albarston.com</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="manage-your-team d-flex justify-content-center">
-        <div class="manage-your-team__title mr-7">
+        <p class="manage-your-team__title mr-7">
           Manage your team in one place
-        </div>
+        </p>
         <button class="start-trial-button ml-8">
           Start free 14 days trial
         </button>
       </div>
       <div class="input-block d-flex flex-column align-items-center">
-        <div class="input-block__title">Please leave your request</div>
+        <p class="input-block__title">Please leave your request</p>
         <div class="input-block__input-background mt-7">
           <div
             class="
@@ -485,7 +488,7 @@
             <input
               type="search"
               placeholder="First name"
-              class="input-block__first-name input-block__input-item pl-4 mb-2"
+              class="input-block__first-name input-block__input-item pl-4 mt-3 mb-2"
             />
 
             <input
@@ -599,9 +602,9 @@
               pb-10
             "
           >
-            <div class="footer__bottom-item col-3">
+            <p class="footer__bottom-item col-3">
               © 2019 Grayic. All rights reserved
-            </div>
+            </p>
             <div class="footer__bottom-item col-4">
               <span class="mr-4">Privacy Policy</span>
               <span class="mr-4">Terms & Conditions</span>
