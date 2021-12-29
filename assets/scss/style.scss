@@ -21,9 +21,11 @@ body {
 
 .hero {
   width: 100%;
-  height: 535px;
   background-image: url(/assets/images/hero/hero-bg.png), $blue-gradient;
+  background-position: top;
+  background-repeat: no-repeat;
   mix-blend-mode: normal;
+  background-size: 100%;
   &__content {
     margin-top: 79px;
     z-index: 1;
@@ -51,8 +53,6 @@ body {
 }
 
 .advantages {
-  margin-bottom: 120px;
-  margin-top: 120px;
   .circle {
     margin: auto;
   }
@@ -116,7 +116,6 @@ body {
 
 .manage-everything {
   &__img-wrapper {
-    margin-top: 120px;
     position: relative;
   }
   &__img-1 {
@@ -169,7 +168,6 @@ body {
     color: $color-grey-darken-1;
   }
   &__img-wrapper {
-    margin-top: 120px;
     position: relative;
   }
   &__img-1 {
@@ -194,6 +192,9 @@ body {
 .hero-2 {
   background: $hero-2-background;
   background-image: url(../images/hero-2/hero-2-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
   &__content {
     margin-top: 120px;
     z-index: 1;
@@ -228,7 +229,6 @@ body {
 .choose-plan {
   &__title {
     text-align: center;
-    margin-top: 240px;
     @include font-inter-bold;
     @include title;
     font-weight: 100;
@@ -336,7 +336,6 @@ body {
 }
 
 .brands {
-  margin-top: 120px;
   &__title {
     @include font-inter-reg;
     @include subtitle-2;
@@ -363,7 +362,6 @@ body {
 }
 
 .reviews {
-  margin-top: 120px;
   &__quote-card {
     @include border;
   }
@@ -413,7 +411,6 @@ body {
 }
 
 .input-block {
-  margin-top: 120px;
   &__title {
     @include font-inter-bold;
     @include title;
@@ -459,7 +456,6 @@ body {
 }
 
 .footer {
-  margin-top: 120px;
   &-bg {
     background: $blue-gradient;
     height: max-content;
