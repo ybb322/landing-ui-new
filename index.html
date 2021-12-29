@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="hero d-flex align-items-center flex-column">
-        <img src="assets/images/hero/hero-bg.png" alt="" class="hero-bg-img" />
+      <section class="hero d-flex align-items-center flex-column">
+          <div class="container">
         <div class="header mt-8">
-          <div class="row d-flex align-items-center justify-content-between">
+          <div class="row align-items-center justify-content-between">
             <div class="header__logo col-1">
               <a href="#"><img src="assets/images/header/berlin-logo.svg" alt="" /></a>
             </div>
@@ -48,7 +47,7 @@
           </button>
           <h3 class="hero__sub-subtitle mt-3">No credit card required</h3>
         </div>
-      </div>
+    </section>
       <div class="advantages row">
         <div
           class="advantages__item col-4"
@@ -118,7 +117,7 @@
     </div>
     <div class="manage-everything-background block-background">
       <div class="container">
-        <div class="manage-everything d-flex flex-row row">
+        <div class="manage-everything flex-row row">
           <div class="manage-everything__img-wrapper col-6 ml-11">
             <img
               src="assets/images/manage-everything/img-1.png"
@@ -149,7 +148,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="build-better d-flex row">
+      <div class="build-better row">
         <div class="build-better__text-wrapper ml-11 col-5">
           <div class="build-better__title">
             Build better team work faster and better!
@@ -177,13 +176,8 @@
           />
         </div>
       </div>
-      <div class="hero-2 d-flex align-items-center flex-column">
-        <img
-          src="assets/images/hero-2/hero-2-bg.png"
-          alt=""
-          class="hero-2-bg-img"
-        />
-        <div class="hero-2__content d-flex flex-column align-items-center">
+      <section class="hero-2 d-flex align-items-center flex-column">
+        <div class="hero-2__content">
           <div
             class="
               hero-2__circle
@@ -203,25 +197,25 @@
             with expertise
           </p>
         </div>
-      </div>
+    </section>
     </div>
     <div class="choose-plan-background block-gradient-background">
       <div class="container">
-        <div class="choose-plan d-flex flex-column align-items-center">
-          <div class="choose-plan__title">
+        <div class="choose-plan">
+          <p class="choose-plan__title">
             Choose a plan to start
-          </div>
+          </p>
+          <div class="choose-plan__subtitle-wrapper d-flex justify-content-center">
           <p class="choose-plan__subtitle mt-5">
             Wireframes are generally created by business analysts, user
             experience designers, developers, visual designers, and by those
             with expertise
           </p>
+          </div>
           <div
             class="
               choose-plan__toggle-buttons
               d-flex
-              justify-content-around
-              align-items-center
               mt-15
               pb-1
               pt-1
@@ -254,7 +248,7 @@
             </div>
           </div>
           <div
-            class="choose-plan__cards row d-flex justify-content-center mt-10"
+            class="choose-plan__cards row justify-content-center mt-10"
           >
             <div class="choose-plan__price-card d-flex flex-column justify-content-between col-4 mr-4 pa-0">
                 <div class="choose-plan__info-container">
@@ -551,7 +545,6 @@
             class="
               footer__nav-container
               row
-              d-flex
               justify-content-between
               pt-10
             "
@@ -596,7 +589,6 @@
             class="
               footer__bottom-items-container
               row
-              d-flex
               justify-content-between
               mt-15
               pb-10

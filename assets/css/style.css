@@ -709,12 +709,7 @@ p {
 }
 
 body {
-  width: 1600px;
   margin: 0 auto;
-}
-
-.container {
-  width: 1150px;
 }
 
 .header {
@@ -731,10 +726,8 @@ body {
 .hero {
   width: 100%;
   height: 535px;
-}
-.hero-bg-img {
-  background: linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
-  position: absolute;
+  background-image: url(/assets/images/hero/hero-bg.png), linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
+  mix-blend-mode: normal;
 }
 .hero__content {
   margin-top: 79px;
@@ -915,15 +908,16 @@ body {
   background: linear-gradient(180deg, rgba(248, 251, 254, 0.0001) -26.82%, #f8fbfe 100%);
 }
 
-.hero-2-bg-img {
+.hero-2 {
   background: #222d3d;
-  position: absolute;
+  background-image: url(../images/hero-2/hero-2-bg.png);
 }
 .hero-2__content {
   margin-top: 120px;
   z-index: 1;
 }
 .hero-2__circle {
+  margin: 0 auto;
   width: 96px;
   height: 96px;
   border-radius: 50%;
@@ -943,6 +937,7 @@ body {
   line-height: 50px;
   letter-spacing: -0.3px;
   font-weight: 100;
+  text-align: center;
   color: white;
 }
 .hero-2__subtitle {
@@ -955,6 +950,7 @@ body {
 }
 
 .choose-plan__title {
+  text-align: center;
   margin-top: 240px;
   font-family: inter-bold;
   font-size: 38px;
@@ -983,6 +979,7 @@ body {
   letter-spacing: -0.3px;
   text-transform: uppercase;
   color: #0f3d33;
+  margin: 0 auto;
 }
 .choose-plan__toggle-buttons:hover {
   cursor: pointer;
