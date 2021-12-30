@@ -44,6 +44,7 @@ $color-footnote: rgba(142, 142, 142, 1);
 
 //Colors for shadow
 $color-shadow-black: rgba(0, 0, 0, 0.103346);
+$color-shadow-black-darken: rgba(0, 0, 0, 0.136011);
 $color-shadow-blue: rgba(67, 87, 138, 0.29);
 
 //Circles & dots colors
@@ -60,8 +61,8 @@ $color-purple-dot: rgba(166, 101, 251, 1);
 $blue-gradient: linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
 $white-gradient: linear-gradient(
   180deg,
-  rgba(248, 251, 254, 0.0001) -26.82%,
-  #f8fbfe 100%
+  rgba(255, 255, 255, 0.0001) -23.88%,
+  #ffffff 100%
 );
 
 //Big margins

@@ -68,12 +68,6 @@ p {
   margin-inline-end: 0px;
 }
 
-h1 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  font-weight: normal;
-}
-
 .pt-0 {
   padding-top: 0px !important;
 }
@@ -730,6 +724,45 @@ h1 {
   padding-bottom: 120px;
 }
 
+h1 {
+  font-family: inter-bold;
+  font-size: 46px;
+  line-height: 68px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: normal;
+  letter-spacing: -0.3px;
+}
+
+h2 {
+  font-family: inter-bold;
+  font-size: 38px;
+  line-height: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: normal;
+  letter-spacing: -0.3px;
+}
+
+h3 {
+  font-family: inter-bold;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: -0.22px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: inter-bold;
+  font-size: 22px;
+  line-height: 34px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: normal;
+}
+
 body {
   margin: 0 auto;
 }
@@ -747,7 +780,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   mix-blend-mode: normal;
-  background-size: 100%;
+  background-size: cover;
 }
 .hero__content {
   margin-top: 79px;
@@ -755,10 +788,6 @@ body {
   text-align: center;
 }
 .hero__title {
-  font-family: inter-bold;
-  font-size: 46px;
-  line-height: 68px;
-  letter-spacing: -0.3px;
   color: white;
 }
 .hero__subtitle {
@@ -833,18 +862,16 @@ body {
   max-width: 300px;
 }
 
-.block-background {
-  width: 1600px;
-  background-color: #f8fbfe;
-}
-
 .block-gradient-background {
   background: white;
   background: linear-gradient(0deg, white 50%, white 50%, #f8fbfe 50%, #f8fbfe 100%);
 }
 
+.manage-everything {
+  background-color: #f8fbfe;
+}
 .manage-everything__img-wrapper {
-  position: relative;
+  height: 462px;
 }
 .manage-everything__img-1 {
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
@@ -860,17 +887,9 @@ body {
   top: 180px;
   width: 351px;
   height: 192px;
-  background: linear-gradient(180deg, rgba(248, 251, 254, 0.0001) -26.82%, #f8fbfe 100%);
-}
-.manage-everything__text-wrapper {
-  margin-top: 180px;
-  margin-bottom: 180px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) -23.88%, #ffffff 100%);
 }
 .manage-everything__title {
-  font-family: inter-bold;
-  font-size: 38px;
-  line-height: 50px;
-  letter-spacing: -0.3px;
   color: black;
 }
 .manage-everything__subtitle {
@@ -884,14 +903,7 @@ body {
 .build-better {
   margin-bottom: 150px;
 }
-.build-better__text-wrapper {
-  margin-top: 154px;
-}
 .build-better__title {
-  font-family: inter-bold;
-  font-size: 38px;
-  line-height: 50px;
-  letter-spacing: -0.3px;
   color: black;
 }
 .build-better__subtitle {
@@ -908,24 +920,28 @@ body {
   position: relative;
   left: 230px;
   top: 60px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
+  border-radius: 5px;
 }
 .build-better__img-2 {
   position: absolute;
   left: 18px;
+  box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.136011);
+  border-radius: 5px;
 }
 .build-better__img-gradient {
   position: absolute;
   width: 326px;
   height: 192px;
-  top: 180px;
-  left: 160px;
-  background: linear-gradient(180deg, rgba(248, 251, 254, 0.0001) -26.82%, #f8fbfe 100%);
+  top: 190px;
+  left: 240px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) -23.88%, #ffffff 100%);
 }
 
 .hero-2 {
   background: #222d3d;
   background-image: url(../images/hero-2/hero-2-bg.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   mix-blend-mode: normal;
@@ -946,11 +962,6 @@ body {
   border-color: transparent transparent transparent #50e3c2;
 }
 .hero-2__title {
-  font-family: inter-bold;
-  font-size: 38px;
-  line-height: 50px;
-  letter-spacing: -0.3px;
-  font-weight: 100;
   text-align: center;
   color: white;
 }
@@ -965,11 +976,6 @@ body {
 
 .choose-plan__title {
   text-align: center;
-  font-family: inter-bold;
-  font-size: 38px;
-  line-height: 50px;
-  letter-spacing: -0.3px;
-  font-weight: 100;
   color: black;
 }
 .choose-plan__subtitle {
@@ -1156,10 +1162,6 @@ body {
 }
 
 .input-block__title {
-  font-family: inter-bold;
-  font-size: 38px;
-  line-height: 50px;
-  letter-spacing: -0.3px;
   color: black;
 }
 .input-block__input-background {
