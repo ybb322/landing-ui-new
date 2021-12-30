@@ -10,8 +10,6 @@ body {
 }
 
 .header {
-  z-index: 1;
-  width: 1150px;
   &__nav {
     @include font-inter-light;
     @include subtitle-2;
@@ -194,11 +192,9 @@ body {
   background-image: url(../images/hero-2/hero-2-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: top;
-  &__content {
-    margin-top: 120px;
-    z-index: 1;
-  }
+
+  background-position: center;
+  mix-blend-mode: normal;
   &__circle {
     margin: 0 auto;
     width: 96px;
