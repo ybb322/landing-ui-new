@@ -31,7 +31,7 @@ $paddingNames: (
     @each $paddingName, $paddingLetter in $paddingNames {
       @for $i from 0 through 15 {
         .#{$paddingLetter}#{$sideLetter}-#{$i} {
-          #{$paddingName}#{$sideName}: $i * $step !important;
+          #{$paddingName}#{$sideName}: $i * $step;
         }
       }
     }
@@ -43,7 +43,7 @@ $paddingNames: (
     @each $marginName, $marginLetter in $marginNames {
       @for $i from 0 through 15 {
         .#{$marginLetter}#{$sideLetter}-#{$i} {
-          #{$marginName}#{$sideName}: $i * $step !important;
+          #{$marginName}#{$sideName}: $i * $step;
         }
       }
     }
