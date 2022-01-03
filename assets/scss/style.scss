@@ -6,13 +6,19 @@
 @import "spacing";
 @import "typography";
 
+html {
+  font: {
+    family: inter, sans-serif;
+  }
+}
+
 body {
   margin: 0 auto;
+  font-family: inter;
 }
 
 .header {
   &__nav {
-    @include font-inter-light;
     @include subtitle-2;
     color: $color-grey-lighten-1;
   }
@@ -34,14 +40,12 @@ body {
     color: $color-white;
   }
   &__subtitle {
-    @include font-inter-light;
     font-size: 20px;
     max-width: 563px;
     line-height: 34px;
     color: $color-grey-lighten-1;
   }
   &__sub-subtitle {
-    @include font-inter-light;
     @include subtitle-3;
     color: $color-grey-lighten-1;
   }
@@ -83,14 +87,12 @@ body {
     background-color: $color-grey-border;
   }
   &__title {
-    @include font-inter-bold;
     color: $color-black;
     font-size: 22px;
     line-height: 34px;
     text-align: center;
   }
   &__subtitle {
-    @include font-inter-reg;
     @include subtitle;
     color: $color-grey-darken-1;
     font-weight: 400;
@@ -136,7 +138,6 @@ body {
     color: $color-black;
   }
   &__subtitle {
-    @include font-inter-reg;
     @include subtitle;
     max-width: 436px;
     color: $color-grey-darken-1;
@@ -148,7 +149,6 @@ body {
     color: $color-black;
   }
   &__subtitle {
-    @include font-inter-reg;
     @include subtitle;
     max-width: 436px;
     color: $color-grey-darken-1;
@@ -208,7 +208,6 @@ body {
     color: $color-white;
   }
   &__subtitle {
-    @include font-inter-light;
     @include subtitle;
     text-align: center;
     color: $color-white;
@@ -222,7 +221,6 @@ body {
     color: $color-black;
   }
   &__subtitle {
-    @include font-inter-reg;
     @include subtitle;
     font-weight: 100;
     color: $color-grey-darken-1;
@@ -230,11 +228,10 @@ body {
     text-align: center;
   }
   &__toggle-buttons {
-    @include font-inter-bold;
+    font-weight: 700;
     @include border;
     width: 250px;
     border-radius: 23px;
-    font-weight: 100;
     font-size: 12px;
     line-height: 28px;
     letter-spacing: -0.3px;
@@ -263,14 +260,14 @@ body {
     background-color: $color-green;
   }
   &__type {
-    @include font-inter-bold;
+    font-weight: 700;
     color: $color-grey-2;
     text-transform: uppercase;
     font-size: 13px;
     line-height: 32px;
   }
   &__price {
-    @include font-inter-bold;
+    font-weight: 700;
     color: $color-black;
     &-currency {
       font-size: 30px;
@@ -292,15 +289,14 @@ body {
     }
   }
   &__description {
-    @include font-inter-reg;
     color: $color-grey-darken-1;
     font-size: 14px;
     line-height: 23px;
     letter-spacing: -0.4px;
+    max-width: 230px;
   }
   &__bonus-list {
-    @include font-inter-light;
-    font-weight: 700;
+    font-weight: 400;
     position: relative;
     right: 28px;
   }
@@ -315,7 +311,6 @@ body {
     color: $color-text-crossed;
   }
   &__footnote {
-    @include font-inter-reg;
     @include subtitle-3;
     color: $color-footnote;
   }
@@ -323,7 +318,6 @@ body {
 
 .brands {
   &__title {
-    @include font-inter-reg;
     @include subtitle-2;
     color: $color-grey-2;
     text-align: center;
@@ -352,14 +346,12 @@ body {
     @include border;
   }
   &__quote-mark {
-    @include font-inter-reg;
     font-size: 98px;
     line-height: 119px;
     letter-spacing: -0.1px;
     color: $color-grey-lighten-1;
   }
   &__quote {
-    @include font-inter-reg;
     @include subtitle;
     font-weight: 500;
     letter-spacing: -0.1px;
@@ -369,12 +361,10 @@ body {
     color: $color-black;
   }
   &__name {
-    @include font-inter-bold;
     @include subtitle-2;
     color: $color-grey-darken-1;
   }
   &__from {
-    @include font-inter-reg;
     @include subtitle-3;
     color: $color-grey-darken-1;
   }
@@ -388,7 +378,6 @@ body {
 
 .manage-your-team {
   &__title {
-    @include font-inter-bold;
     font-size: 28px;
     line-height: 50px;
     color: $color-black;
@@ -414,7 +403,6 @@ body {
     border-radius: 10px;
   }
   &__input-form {
-    @include font-inter-reg;
     color: $color-grey-darken-1;
   }
   &__input-item {
@@ -460,13 +448,11 @@ body {
       mix-blend-mode: normal;
       opacity: 0.7;
     }
-    @include font-inter-reg;
     @include subtitle-2;
     z-index: 5;
     color: $color-grey-lighten-2;
   }
   &__bottom-item {
-    @include font-inter-reg;
     font-size: 12px;
     line-height: 18px;
     color: $color-grey-lighten-1;

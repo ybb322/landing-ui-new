@@ -1,26 +1,19 @@
 @font-face {
-  font-family: "inter-bold";
-  src: url(/assets/fonts/Inter-Bold.ttf);
-}
-
-@font-face {
-  font-family: "inter-light";
-  src: url(/assets/fonts/Inter-Light.ttf);
-}
-
-@font-face {
-  font-family: "inter-reg";
-  src: url(/assets/fonts/Inter-Regular.ttf);
+  font-family: "inter";
+  src: url(/assets/fonts/Inter-Regular.woff2);
 }
 
 @mixin font-inter-bold {
-  font-family: inter-bold;
+  font-family: inter;
+  font-weight: 700;
 }
 
 @mixin font-inter-light {
-  font-family: inter-light;
+  font-family: inter;
+  font-weight: 100;
 }
 
 @mixin font-inter-reg {
-  font-family: inter-reg;
+  font-family: inter;
+  font-weight: 500;
 }
