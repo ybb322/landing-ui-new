@@ -844,6 +844,13 @@ body {
   border-radius: 50%;
   background-color: #a665fb;
 }
+.advantages__line {
+  height: 110px;
+  position: relative;
+  bottom: -110px;
+  width: 1px;
+  background-color: #e8e8ea;
+}
 .advantages__title {
   font-family: inter-bold;
   color: black;
@@ -1002,7 +1009,6 @@ body {
   letter-spacing: -0.3px;
   text-transform: uppercase;
   color: #0f3d33;
-  margin: 0 auto;
 }
 .choose-plan__toggle-buttons:hover {
   cursor: pointer;
@@ -1017,8 +1023,8 @@ body {
   border-radius: 6px;
 }
 .choose-plan__line {
-  position: relative;
-  width: 350px;
+  position: absolute;
+  width: 100%;
   height: 4px;
   border-radius: 4px;
 }
@@ -1162,6 +1168,9 @@ body {
   color: black;
 }
 
+.input-block {
+  background: linear-gradient(0deg, #f8fbfe 0%, #f8fbfe 75%, white 75%, white 100%);
+}
 .input-block__title {
   color: black;
 }

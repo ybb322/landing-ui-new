@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <section class="hero d-flex align-items-center flex-column pb-default pt-7">
+    <section class="hero pb-default pt-7">
       <div class="container">
         <div class="header">
           <div class="row align-items-center justify-content-between">
-            <div class="header__logo col-2">
+            <div class="header__logo col-2 pt-5">
               <a href="#"
                 ><img src="assets/images/header/berlin-logo.svg" alt=""
               /></a>
@@ -52,9 +52,9 @@
       </div>
     </section>
     <section class="advantages row mt-default mb-default">
-      <div class="container">
-        <div class="row">
-          <div class="advantages__item col-4">
+      <div class="container pa-0">
+        <div class="row justify-content-around">
+          <div class="advantages__item col-3 pa-0">
             <div
               class="
                 advantages__red-circle
@@ -82,7 +82,9 @@
             </div>
           </div>
 
-          <div class="advantages__item col-4">
+          <div class="advantages__line"></div>
+
+          <div class="advantages__item col-3 pa-0">
             <div
               class="
                 advantages__green-circle
@@ -110,7 +112,9 @@
             </div>
           </div>
 
-          <div class="advantages__item col-4">
+          <div class="advantages__line"></div>
+
+          <div class="advantages__item col-3 pa-0">
             <div
               class="
                 advantages__purple-circle
@@ -212,9 +216,7 @@
         </div>
       </div>
     </section>
-    <section
-      class="hero-2 d-flex align-items-center flex-column pt-default pb-default"
-    >
+    <section class="hero-2 pt-default pb-default">
       <div class="hero-2__content">
         <div
           class="
@@ -227,15 +229,18 @@
           <div class="hero-2__triangle ml-1"></div>
         </div>
         <h2 class="hero-2__title mt-13">We help you to be successful</h2>
-        <p class="hero-2__subtitle mt-5">
-          Wireframes are generally created by business analysts, user experience
-          designers, developers, visual designers, and by those with expertise
-        </p>
+        <div class="hero-2__subtitle-wrapper d-flex justify-content-center">
+          <p class="hero-2__subtitle mt-5">
+            Wireframes are generally created by business analysts, user
+            experience designers, developers, visual designers, and by those
+            with expertise
+          </p>
+        </div>
       </div>
     </section>
-    <div class="choose-plan-background block-gradient-background">
+    <section class="choose-plan-background block-gradient-background">
       <div class="container">
-        <div class="choose-plan mt-default">
+        <div class="choose-plan pt-default">
           <h2 class="choose-plan__title">Choose a plan to start</h2>
           <div
             class="choose-plan__subtitle-wrapper d-flex justify-content-center"
@@ -246,31 +251,48 @@
               with expertise
             </p>
           </div>
-          <div class="choose-plan__toggle-buttons d-flex mt-15 pb-1 pt-1">
+          <div
+            class="
+              choose-plan__toggle-buttons-wrapper
+              d-flex
+              justify-content-center
+              mt-15
+            "
+          >
             <div
               class="
-                choose-plan__monthly choose-plan__period-button
+                choose-plan__toggle-buttons
                 d-flex
-                align-items-center
                 justify-content-center
-                pt-1
                 pb-1
+                pt-1
               "
             >
-              Monthly
-            </div>
-            <div
-              class="
-                choose-plan__yearly choose-plan__period-button
-                d-flex
-                align-items-center
-                justify-content-center
-                period-button-active
-                pt-1
-                pb-1
-              "
-            >
-              Yearly
+              <div
+                class="
+                  choose-plan__monthly choose-plan__period-button
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-1
+                  pb-1
+                "
+              >
+                Monthly
+              </div>
+              <div
+                class="
+                  choose-plan__yearly choose-plan__period-button
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  period-button-active
+                  pt-1
+                  pb-1
+                "
+              >
+                Yearly
+              </div>
             </div>
           </div>
           <div class="choose-plan__cards row justify-content-center mt-10">
@@ -285,20 +307,20 @@
                 pa-0
               "
             >
-              <div class="choose-plan__info-container">
+              <div class="choose-plan__info-container pl-11 pt-7">
                 <div class="choose-plan__line"></div>
-                <p class="choose-plan__type mt-7 ml-11">Basic</p>
-                <div class="choose-plan__price mt-4 ml-11">
+                <p class="choose-plan__type">Basic</p>
+                <div class="choose-plan__price mt-4">
                   <span class="choose-plan__price-currency">$</span>
                   <span class="choose-plan__price-number">19</span>
                   <span class="choose-plan__price-slash">/</span>
                   <span class="choose-plan__price-period">month</span>
                 </div>
-                <p class="choose-plan__description mt-1 ml-11 col-10">
+                <p class="choose-plan__description mt-1 col-10">
                   Good for small business launching their products less than
                   once a year
                 </p>
-                <ul class="choose-plan__bonus-list ml-11 mt-5">
+                <ul class="choose-plan__bonus-list mt-5">
                   <li class="choose-plan__bonus">
                     <span class="choose-plan__list-checkmark mr-3">✓</span>
                     Unlimited Blocks
@@ -326,12 +348,14 @@
                   d-flex
                   flex-column
                   justify-content-end
+                  pl-11
+                  pb-7
                 "
               >
-                <button class="start-trial-button ml-11 mt-8">
+                <button class="start-trial-button mt-8">
                   Start free 14 days trial
                 </button>
-                <p class="choose-plan__footnote ml-12 mt-3 mb-8">
+                <p class="choose-plan__footnote mt-3">
                   No credit card required
                 </p>
               </div>
@@ -348,20 +372,20 @@
                 pa-0
               "
             >
-              <div class="choose-plan__info-container">
-                <div class="choose-plan__line line-active"></div>
-                <p class="choose-plan__type ml-11 mt-7">Pro</p>
-                <div class="choose-plan__price mt-4 ml-11">
+              <div class="choose-plan__line line-active"></div>
+              <div class="choose-plan__info-container pl-11 pt-7">
+                <p class="choose-plan__type">Pro</p>
+                <div class="choose-plan__price mt-4">
                   <span class="choose-plan__price-currency">$</span>
                   <span class="choose-plan__price-number">29</span>
                   <span class="choose-plan__price-slash">/</span>
                   <span class="choose-plan__price-period">month</span>
                 </div>
-                <p class="choose-plan__description mt-1 ml-11 col-10">
+                <p class="choose-plan__description mt-1 col-10">
                   Good for small business launching their products less than
                   once a year
                 </p>
-                <ul class="choose-plan__bonus-list ml-11 mt-5">
+                <ul class="choose-plan__bonus-list mt-5">
                   <li class="choose-plan__bonus">
                     <span class="choose-plan__list-checkmark mr-3">✓</span>
                     Unlimited Blocks
@@ -389,134 +413,140 @@
                   d-flex
                   flex-column
                   justify-content-end
+                  pl-11
+                  pb-7
                 "
               >
-                <button class="start-trial-button ml-11 mt-8">
+                <button class="start-trial-button mt-8">
                   Start free 14 days trial
                 </button>
-                <p class="choose-plan__footnote ml-12 mt-3 mb-8">
+                <p class="choose-plan__footnote mt-3">
                   No credit card required
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="brands mt-default">
-          <p class="brands__title">
-            We are proud to have some big brands as our customer
-          </p>
-          <div
-            class="brands__items d-flex flex-row justify-content-around mt-10"
-          >
-            <img
-              src="assets/images/brands/growbots-logo.svg"
-              alt=""
-              class="brands__item growbots-logo"
-            />
+      </div>
+    </section>
+    <section class="brands mt-default">
+      <div class="container">
+        <p class="brands__title">
+          We are proud to have some big brands as our customer
+        </p>
+        <div class="brands__items d-flex flex-row justify-content-around mt-10">
+          <img
+            src="assets/images/brands/growbots-logo.svg"
+            alt=""
+            class="brands__item growbots-logo"
+          />
 
-            <img
-              src="assets/images/brands/funnel-logo.svg"
-              alt=""
-              class="brands__item funnel-logo"
-            />
+          <img
+            src="assets/images/brands/funnel-logo.svg"
+            alt=""
+            class="brands__item funnel-logo"
+          />
 
-            <img
-              src="assets/images/brands/digital-ocean-logo.svg"
-              alt=""
-              class="brands__item digital-ocean-logo"
-            />
+          <img
+            src="assets/images/brands/digital-ocean-logo.svg"
+            alt=""
+            class="brands__item digital-ocean-logo"
+          />
 
-            <img
-              src="assets/images/brands/sketch-logo.svg"
-              alt=""
-              class="brands__item sketch-logo"
-            />
+          <img
+            src="assets/images/brands/sketch-logo.svg"
+            alt=""
+            class="brands__item sketch-logo"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="reviews mt-default">
+      <div class="container">
+        <div class="row">
+          <div class="reviews__quote-card d-flex flex-column col-4 card-1">
+            <span class="reviews__quote-mark ml-11">”</span>
+            <p class="reviews__quote ml-11">
+              “You made it so simple. My new site is so much faster and easier
+              to work with than my old site. I just choose the page, make the
+              change and click save.”
+            </p>
+            <div
+              class="
+                reviews__person-info-container
+                d-flex
+                flex-column
+                justify-content-end
+              "
+            >
+              <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
+                <div class="reviews__photo">
+                  <img src="assets/images/reviews/person-1.png" />
+                </div>
+                <div class="reviews__name-from ml-5">
+                  <p class="reviews__name">Cameron Anderson</p>
+                  <p class="reviews__from">From CrazyEggs.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__quote-card d-flex flex-column col-4 card-2">
+            <span class="reviews__quote-mark ml-11">”</span>
+            <p class="reviews__quote ml-11">
+              “Simply the best. Better than all the rest. I'd recommend this
+              product to beginners and advanced users.”
+            </p>
+            <div
+              class="
+                reviews__person-info-container
+                d-flex
+                flex-column
+                justify-content-end
+              "
+            >
+              <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
+                <div class="reviews__photo">
+                  <img src="assets/images/reviews/person-2.png" />
+                </div>
+                <div class="reviews__name-from ml-5">
+                  <p class="reviews__name">Ellen Austin</p>
+                  <p class="reviews__from">From FashionGigs.net</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__quote-card d-flex flex-column col-4 card-3">
+            <span class="reviews__quote-mark ml-11">”</span>
+            <p class="reviews__quote ml-11">
+              “This is a top quality product. No need to think twice before
+              purchasing, you simply could not go wrong.”
+            </p>
+            <div
+              class="
+                reviews__person-info-container
+                d-flex
+                flex-column
+                justify-content-end
+              "
+            >
+              <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
+                <div class="reviews__photo">
+                  <img src="assets/images/reviews/person-3.png" />
+                </div>
+                <div class="reviews__name-from ml-5">
+                  <p class="reviews__name">Cameron Anderson</p>
+                  <p class="reviews__from">From Albarston.com</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="reviews d-flex justify-content-center mt-default">
-        <div class="reviews__quote-card d-flex flex-column col-4 card-1">
-          <span class="reviews__quote-mark ml-11">”</span>
-          <p class="reviews__quote ml-11">
-            “You made it so simple. My new site is so much faster and easier to
-            work with than my old site. I just choose the page, make the change
-            and click save.”
-          </p>
-          <div
-            class="
-              reviews__person-info-container
-              d-flex
-              flex-column
-              justify-content-end
-            "
-          >
-            <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
-              <div class="reviews__photo">
-                <img src="assets/images/reviews/person-1.png" />
-              </div>
-              <div class="reviews__name-from ml-5">
-                <p class="reviews__name">Cameron Anderson</p>
-                <p class="reviews__from">From CrazyEggs.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="reviews__quote-card d-flex flex-column col-4 card-2">
-          <span class="reviews__quote-mark ml-11">”</span>
-          <p class="reviews__quote ml-11">
-            “Simply the best. Better than all the rest. I'd recommend this
-            product to beginners and advanced users.”
-          </p>
-          <div
-            class="
-              reviews__person-info-container
-              d-flex
-              flex-column
-              justify-content-end
-            "
-          >
-            <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
-              <div class="reviews__photo">
-                <img src="assets/images/reviews/person-2.png" />
-              </div>
-              <div class="reviews__name-from ml-5">
-                <p class="reviews__name">Ellen Austin</p>
-                <p class="reviews__from">From FashionGigs.net</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="reviews__quote-card d-flex flex-column col-4 card-3">
-          <span class="reviews__quote-mark ml-11">”</span>
-          <p class="reviews__quote ml-11">
-            “This is a top quality product. No need to think twice before
-            purchasing, you simply could not go wrong.”
-          </p>
-          <div
-            class="
-              reviews__person-info-container
-              d-flex
-              flex-column
-              justify-content-end
-            "
-          >
-            <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
-              <div class="reviews__photo">
-                <img src="assets/images/reviews/person-3.png" />
-              </div>
-              <div class="reviews__name-from ml-5">
-                <p class="reviews__name">Cameron Anderson</p>
-                <p class="reviews__from">From Albarston.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="manage-your-team d-flex justify-content-center mt-default">
+    </section>
+    <section class="manage-your-team mt-default">
+      <div class="container d-flex justify-content-center">
         <h3 class="manage-your-team__title mr-7">
           Manage your team in one place
         </h3>
@@ -524,89 +554,88 @@
           Start free 14 days trial
         </button>
       </div>
-      <div class="input-block d-flex flex-column align-items-center mt-default">
-        <h2 class="input-block__title">Please leave your request</h2>
-        <div class="input-block__input-background mt-7">
+    </section>
+    <section
+      class="
+        input-block
+        d-flex
+        flex-column
+        align-items-center
+        mt-default
+        pb-default
+      "
+    >
+      <h2 class="input-block__title">Please leave your request</h2>
+      <div class="input-block__input-background mt-7 pt-13 pb-12">
+        <div
+          class="input-block__input-form d-flex flex-column align-items-center"
+        >
+          <input
+            type="search"
+            placeholder="First name"
+            class="
+              input-block__first-name input-block__input-item
+              pl-4
+              mt-3
+              mb-2
+            "
+          />
+
+          <input
+            type="search"
+            placeholder="Last name"
+            class="
+              input-block__last-name input-block__input-item
+              pl-4
+              mt-3
+              mb-2
+            "
+          />
+
+          <input
+            type="search"
+            placeholder="Email"
+            class="input-block__email input-block__input-item pl-4 mt-3 mb-2"
+          />
+          <input
+            type="search"
+            placeholder="Phone"
+            class="input-block__phone input-block__input-item pl-4 mt-3 mb-2"
+          />
+
           <div
             class="
-              input-block__input-form
+              input-block__attachment
+              mt-5
               d-flex
-              flex-column
+              justify-content-between
               align-items-center
-              mt-13
             "
           >
-            <input
-              type="search"
-              placeholder="First name"
-              class="
-                input-block__first-name input-block__input-item
-                pl-4
-                mt-3
-                mb-2
-              "
-            />
-
-            <input
-              type="search"
-              placeholder="Last name"
-              class="
-                input-block__last-name input-block__input-item
-                pl-4
-                mt-3
-                mb-2
-              "
-            />
-
-            <input
-              type="search"
-              placeholder="Email"
-              class="input-block__email input-block__input-item pl-4 mt-3 mb-2"
-            />
-            <input
-              type="search"
-              placeholder="Phone"
-              class="input-block__phone input-block__input-item pl-4 mt-3 mb-2"
-            />
-
-            <div
-              class="
-                input-block__attachment
-                mt-5
-                d-flex
-                justify-content-between
-                align-items-center
-              "
-            >
-              <span>You can attach files or documents</span>
-              <label
-                for="file-upload"
-                class="attach-button pt-2 pb-2 pr-3 pl-3"
-              >
-                <img src="assets/images/input-block/attachment-icon.svg" />
-                Attach image
-              </label>
-              <input id="file-upload" type="file" class="file-input" />
-            </div>
-            <button
-              class="
-                input-block__button-send
-                start-trial-button
-                button-inactive
-                mt-5
-                mb-12
-              "
-            >
-              Send
-            </button>
+            <span>You can attach files or documents</span>
+            <label for="file-upload" class="attach-button pt-2 pb-2 pr-3 pl-3">
+              <img src="assets/images/input-block/attachment-icon.svg" />
+              Attach image
+            </label>
+            <input id="file-upload" type="file" class="file-input" />
           </div>
+          <button
+            class="
+              input-block__button-send
+              start-trial-button
+              button-inactive
+              mt-5
+            "
+          >
+            Send
+          </button>
         </div>
       </div>
-    </div>
-    <div class="footer-bg">
-      <div class="footer-container container">
-        <div class="footer mt-default">
-          <div class="footer__nav-container row justify-content-between pt-10">
+    </section>
+    <section class="footer-bg">
+      <div class="container">
+        <div class="footer pb-10 pt-10">
+          <div class="footer__nav-container row justify-content-between">
             <ul class="footer__nav col-2">
               <li class="footer__nav-item mb-8">Store</li>
               <li class="footer__nav-item mb-4">Catalog</li>
@@ -649,7 +678,6 @@
               row
               justify-content-between
               mt-15
-              pb-10
             "
           >
             <p class="footer__bottom-item col-3">
@@ -694,7 +722,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <script src="assets/scripts/script.js"></script>
   </body>
 </html>
