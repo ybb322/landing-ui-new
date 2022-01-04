@@ -2,7 +2,7 @@
 
 .start-trial-button {
   transition: 0.15s all ease-out;
-  @include font-inter-reg;
+  font-family: inter;
   background: $color-green;
   color: $color-green-darken-1;
   width: 227px;

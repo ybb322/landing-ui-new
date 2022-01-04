@@ -342,8 +342,9 @@ body {
 }
 
 .reviews {
-  &__quote-card {
+  &__items {
     @include border;
+    border-radius: 10px;
   }
   &__quote-mark {
     font-size: 98px;
@@ -362,6 +363,7 @@ body {
   }
   &__name {
     @include subtitle-2;
+    font-weight: bold;
     color: $color-grey-darken-1;
   }
   &__from {
