@@ -147,6 +147,7 @@ body {
 .build-better {
   &__title {
     color: $color-black;
+    max-width: 436px;
   }
   &__subtitle {
     @include subtitle;
@@ -161,7 +162,7 @@ body {
     border-radius: 5px;
   }
   &__img-1-wrapper {
-    margin-left: 230px;
+    margin-left: 225px;
     position: relative;
     top: 60px;
     z-index: 0;
@@ -270,6 +271,7 @@ body {
     font-weight: 700;
     color: $color-black;
     &-currency {
+      vertical-align: super;
       font-size: 30px;
       line-height: 36px;
       letter-spacing: -1.2px;
@@ -420,6 +422,7 @@ body {
   }
   &__attachment {
     width: 456px;
+    font-size: 14px;
   }
   &__button-send {
     width: 456px;

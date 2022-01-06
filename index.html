@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing-New</title>
     <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="/assets/slick/slick-theme.css"
+      href="/scripts/slick/slick-theme.css"
     />
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -20,21 +20,14 @@
       <div class="container">
         <div class="header">
           <div class="row align-items-center justify-content-between">
-            <div class="header__logo col-2 pt-5">
+            <div class="header__logo col-2">
               <a href="#"
                 ><img src="assets/images/header/berlin-logo.svg" alt=""
               /></a>
             </div>
             <nav class="col-3">
               <ul
-                class="
-                  header__nav
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  mb-0
-                  pa-0
-                "
+                class="header__nav d-flex justify-content-between align-items-center mb-0 pa-0"
               >
                 <a href="#"> <li class="header__nav-item">Demos</li></a>
                 <a href="#"> <li class="header__nav-item">Pages</li></a>
@@ -63,24 +56,13 @@
         <div class="row justify-content-around">
           <div class="advantages__item col-3 pa-0">
             <div
-              class="
-                advantages__red-circle
-                circle
-                d-flex
-                justify-content-center
-                align-items-center
-              "
+              class="advantages__red-circle circle d-flex justify-content-center align-items-center"
             >
               <div class="advantages__red-dot"></div>
             </div>
             <h4 class="advantages__title mt-8">Single Platform</h4>
             <div
-              class="
-                advantages__subtitle-wrapper
-                d-flex
-                justify-content-center
-                mt-6
-              "
+              class="advantages__subtitle-wrapper d-flex justify-content-center mt-6"
             >
               <p class="advantages__subtitle">
                 Create custom landing pages with Berlin that convert more
@@ -93,24 +75,13 @@
 
           <div class="advantages__item col-3 pa-0">
             <div
-              class="
-                advantages__green-circle
-                circle
-                d-flex
-                justify-content-center
-                align-items-center
-              "
+              class="advantages__green-circle circle d-flex justify-content-center align-items-center"
             >
               <div class="advantages__green-dot"></div>
             </div>
             <h4 class="advantages__title mt-8">Faster Communication</h4>
             <div
-              class="
-                advantages__subtitle-wrapper
-                d-flex
-                justify-content-center
-                mt-6
-              "
+              class="advantages__subtitle-wrapper d-flex justify-content-center mt-6"
             >
               <p class="advantages__subtitle">
                 Create custom landing pages with Berlin that convert more
@@ -123,24 +94,13 @@
 
           <div class="advantages__item col-3 pa-0">
             <div
-              class="
-                advantages__purple-circle
-                circle
-                d-flex
-                justify-content-center
-                align-items-center
-              "
+              class="advantages__purple-circle circle d-flex justify-content-center align-items-center"
             >
               <div class="advantages__purple-dot"></div>
             </div>
             <h4 class="advantages__title mt-8">Everything in One Place</h4>
             <div
-              class="
-                advantages__subtitle-wrapper
-                d-flex
-                justify-content-center
-                mt-6
-              "
+              class="advantages__subtitle-wrapper d-flex justify-content-center mt-6"
             >
               <p class="advantages__subtitle">
                 Create custom landing pages with Berlin that convert more
@@ -171,26 +131,30 @@
               />
             </div>
           </div>
-          <div class="manage-everything__text-wrapper pt-15 col-5">
-            <h2 class="manage-everything__title">
-              Manage everything faster in single place.
-            </h2>
-            <p class="manage-everything__subtitle mt-7">
-              Create custom landing pages with Berlin that convert more visitors
-              than any website. With lots of unique blocks, you can easily build
-              a page without coding.
-            </p>
-            <button class="start-trial-button button-inactive mt-7">
-              Start free 14 days trial
-            </button>
+          <div
+            class="manage-everything__text-wrapper d-flex flex-column justify-content-center col-5"
+          >
+            <div class="manage-everything__text-container">
+              <h2 class="manage-everything__title">
+                Manage everything faster in single place.
+              </h2>
+              <p class="manage-everything__subtitle mt-7">
+                Create custom landing pages with Berlin that convert more
+                visitors than any website. With lots of unique blocks, you can
+                easily build a page without coding.
+              </p>
+              <button class="start-trial-button button-inactive mt-7">
+                Start free 14 days trial
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="build-better pt-default pb-default">
       <div class="container">
-        <div class="row">
-          <div class="build-better__text-wrapper pt-8 ml-11 col-5">
+        <div class="row justify-content-around">
+          <div class="build-better__text-wrapper pt-8 col-5">
             <h2 class="build-better__title">
               Build better team work faster and better!
             </h2>
@@ -203,7 +167,7 @@
               Start free 14 days trial
             </button>
           </div>
-          <div class="build-better__img-wrapper col-5 ml-8">
+          <div class="build-better__img-wrapper col-6">
             <div class="build-better__img-1-wrapper">
               <img
                 src="assets/images/build-better/img-1.png"
@@ -226,12 +190,7 @@
     <section class="hero-2 pt-default pb-default">
       <div class="hero-2__content">
         <div
-          class="
-            hero-2__circle
-            d-flex
-            align-items-center
-            justify-content-center
-          "
+          class="hero-2__circle d-flex align-items-center justify-content-center"
         >
           <div class="hero-2__triangle ml-1"></div>
         </div>
@@ -259,44 +218,18 @@
             </p>
           </div>
           <div
-            class="
-              choose-plan__toggle-buttons-wrapper
-              d-flex
-              justify-content-center
-              mt-15
-            "
+            class="choose-plan__toggle-buttons-wrapper d-flex justify-content-center mt-15"
           >
             <div
-              class="
-                choose-plan__toggle-buttons
-                d-flex
-                justify-content-center
-                pb-1
-                pt-1
-              "
+              class="choose-plan__toggle-buttons d-flex justify-content-center pb-1 pt-1"
             >
               <div
-                class="
-                  choose-plan__monthly choose-plan__period-button
-                  d-flex
-                  align-items-center
-                  justify-content-center
-                  pt-1
-                  pb-1
-                "
+                class="choose-plan__monthly choose-plan__period-button d-flex align-items-center justify-content-center pt-1 pb-1"
               >
                 Monthly
               </div>
               <div
-                class="
-                  choose-plan__yearly choose-plan__period-button
-                  d-flex
-                  align-items-center
-                  justify-content-center
-                  period-button-active
-                  pt-1
-                  pb-1
-                "
+                class="choose-plan__yearly choose-plan__period-button d-flex align-items-center justify-content-center period-button-active pt-1 pb-1"
               >
                 Yearly
               </div>
@@ -304,15 +237,7 @@
           </div>
           <div class="choose-plan__cards row justify-content-center mt-10">
             <div
-              class="
-                choose-plan__price-card
-                d-flex
-                flex-column
-                justify-content-between
-                col-4
-                mr-4
-                pa-0
-              "
+              class="choose-plan__price-card d-flex flex-column justify-content-between col-4 mr-4 pa-0"
             >
               <div class="choose-plan__info-container pl-11 pt-7">
                 <div class="choose-plan__line"></div>
@@ -350,14 +275,7 @@
                 </ul>
               </div>
               <div
-                class="
-                  choose-plan__button-container
-                  d-flex
-                  flex-column
-                  justify-content-end
-                  pl-11
-                  pb-7
-                "
+                class="choose-plan__button-container d-flex flex-column justify-content-end pl-11 pb-7"
               >
                 <button class="start-trial-button mt-8">
                   Start free 14 days trial
@@ -369,15 +287,7 @@
             </div>
 
             <div
-              class="
-                choose-plan__price-card
-                d-flex
-                flex-column
-                justify-content-between
-                col-4
-                ml-4
-                pa-0
-              "
+              class="choose-plan__price-card d-flex flex-column justify-content-between col-4 ml-4 pa-0"
             >
               <div class="choose-plan__line line-active"></div>
               <div class="choose-plan__info-container pl-11 pt-7">
@@ -415,14 +325,7 @@
                 </ul>
               </div>
               <div
-                class="
-                  choose-plan__button-container
-                  d-flex
-                  flex-column
-                  justify-content-end
-                  pl-11
-                  pb-7
-                "
+                class="choose-plan__button-container d-flex flex-column justify-content-end pl-11 pb-7"
               >
                 <button class="start-trial-button mt-8">
                   Start free 14 days trial
@@ -441,7 +344,7 @@
         <p class="brands__title">
           We are proud to have some big brands as our customer
         </p>
-        <div class="brands__items d-flex flex-row justify-content-around mt-10">
+        <div class="brands__items mt-10">
           <img
             src="assets/images/brands/growbots-logo.svg"
             alt=""
@@ -464,24 +367,6 @@
             src="assets/images/brands/sketch-logo.svg"
             alt=""
             class="brands__item sketch-logo"
-          />
-
-          <img
-            src="assets/images/brands/growbots-logo.svg"
-            alt=""
-            class="brands__item growbots-logo"
-          />
-
-          <img
-            src="assets/images/brands/funnel-logo.svg"
-            alt=""
-            class="brands__item funnel-logo"
-          />
-
-          <img
-            src="assets/images/brands/digital-ocean-logo.svg"
-            alt=""
-            class="brands__item digital-ocean-logo"
           />
 
           <img
@@ -496,14 +381,7 @@
       <div class="container">
         <div class="reviews__items row">
           <div
-            class="
-              reviews__quote-card
-              quote-card-1
-              d-flex
-              flex-column
-              col-4
-              card-1
-            "
+            class="reviews__quote-card quote-card-1 d-flex flex-column col-4 card-1"
           >
             <span class="reviews__quote-mark ml-11">”</span>
             <p class="reviews__quote ml-11">
@@ -512,12 +390,7 @@
               change and click save.”
             </p>
             <div
-              class="
-                reviews__person-info-container
-                d-flex
-                flex-column
-                justify-content-end
-              "
+              class="reviews__person-info-container d-flex flex-column justify-content-end"
             >
               <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
                 <div class="reviews__photo">
@@ -532,14 +405,7 @@
           </div>
 
           <div
-            class="
-              reviews__quote-card
-              quote-card-2
-              d-flex
-              flex-column
-              col-4
-              card-2
-            "
+            class="reviews__quote-card quote-card-2 d-flex flex-column col-4 card-2"
           >
             <span class="reviews__quote-mark ml-11">”</span>
             <p class="reviews__quote ml-11">
@@ -547,12 +413,7 @@
               product to beginners and advanced users.”
             </p>
             <div
-              class="
-                reviews__person-info-container
-                d-flex
-                flex-column
-                justify-content-end
-              "
+              class="reviews__person-info-container d-flex flex-column justify-content-end"
             >
               <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
                 <div class="reviews__photo">
@@ -567,14 +428,7 @@
           </div>
 
           <div
-            class="
-              reviews__quote-card
-              quote-card-3
-              d-flex
-              flex-column
-              col-4
-              card-3
-            "
+            class="reviews__quote-card quote-card-3 d-flex flex-column col-4 card-3"
           >
             <span class="reviews__quote-mark ml-11">”</span>
             <p class="reviews__quote ml-11">
@@ -582,12 +436,7 @@
               purchasing, you simply could not go wrong.”
             </p>
             <div
-              class="
-                reviews__person-info-container
-                d-flex
-                flex-column
-                justify-content-end
-              "
+              class="reviews__person-info-container d-flex flex-column justify-content-end"
             >
               <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
                 <div class="reviews__photo">
@@ -602,84 +451,7 @@
           </div>
 
           <div
-            class="
-              reviews__quote-card
-              quote-card-1
-              d-flex
-              flex-column
-              col-4
-              card-1
-            "
-          >
-            <span class="reviews__quote-mark ml-11">”</span>
-            <p class="reviews__quote ml-11">
-              “You made it so simple. My new site is so much faster and easier
-              to work with than my old site. I just choose the page, make the
-              change and click save.”
-            </p>
-            <div
-              class="
-                reviews__person-info-container
-                d-flex
-                flex-column
-                justify-content-end
-              "
-            >
-              <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
-                <div class="reviews__photo">
-                  <img src="assets/images/reviews/person-1.png" />
-                </div>
-                <div class="reviews__name-from ml-5">
-                  <p class="reviews__name">Cameron Anderson</p>
-                  <p class="reviews__from">From CrazyEggs.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="
-              reviews__quote-card
-              quote-card-1
-              d-flex
-              flex-column
-              col-4
-              card-2
-            "
-          >
-            <span class="reviews__quote-mark ml-11">”</span>
-            <p class="reviews__quote ml-11">
-              “Simply the best. Better than all the rest. I'd recommend this
-              product to beginners and advanced users.”
-            </p>
-            <div
-              class="
-                reviews__person-info-container
-                d-flex
-                flex-column
-                justify-content-end
-              "
-            >
-              <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
-                <div class="reviews__photo">
-                  <img src="assets/images/reviews/person-2.png" />
-                </div>
-                <div class="reviews__name-from ml-5">
-                  <p class="reviews__name">Ellen Austin</p>
-                  <p class="reviews__from">From FashionGigs.net</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="
-              reviews__quote-card
-              quote-card-3
-              d-flex
-              flex-column
-              col-4
-              card-3
-            "
+            class="reviews__quote-card quote-card-3 d-flex flex-column col-4 card-3"
           >
             <span class="reviews__quote-mark ml-11">”</span>
             <p class="reviews__quote ml-11">
@@ -687,12 +459,7 @@
               purchasing, you simply could not go wrong.”
             </p>
             <div
-              class="
-                reviews__person-info-container
-                d-flex
-                flex-column
-                justify-content-end
-              "
+              class="reviews__person-info-container d-flex flex-column justify-content-end"
             >
               <div class="reviews__person-info ml-11 mt-10 mb-12 d-flex">
                 <div class="reviews__photo">
@@ -719,14 +486,7 @@
       </div>
     </section>
     <section
-      class="
-        input-block
-        d-flex
-        flex-column
-        align-items-center
-        mt-default
-        pb-default
-      "
+      class="input-block d-flex flex-column align-items-center mt-default pb-default"
     >
       <h2 class="input-block__title">Please leave your request</h2>
       <div class="input-block__input-background mt-7 pt-13 pb-12">
@@ -736,23 +496,13 @@
           <input
             type="search"
             placeholder="First name"
-            class="
-              input-block__first-name input-block__input-item
-              pl-4
-              mt-3
-              mb-2
-            "
+            class="input-block__first-name input-block__input-item pl-4 mt-3 mb-2"
           />
 
           <input
             type="search"
             placeholder="Last name"
-            class="
-              input-block__last-name input-block__input-item
-              pl-4
-              mt-3
-              mb-2
-            "
+            class="input-block__last-name input-block__input-item pl-4 mt-3 mb-2"
           />
 
           <input
@@ -767,28 +517,20 @@
           />
 
           <div
-            class="
-              input-block__attachment
-              mt-5
-              d-flex
-              justify-content-between
-              align-items-center
-            "
+            class="input-block__attachment mt-5 d-flex justify-content-between align-items-center"
           >
             <span>You can attach files or documents</span>
             <label for="file-upload" class="attach-button pt-2 pb-2 pr-3 pl-3">
-              <img src="assets/images/input-block/attachment-icon.svg" />
+              <img
+                src="assets/images/input-block/attachment-icon.svg"
+                class="mr-1 pb-1"
+              />
               Attach image
             </label>
             <input id="file-upload" type="file" class="file-input" />
           </div>
           <button
-            class="
-              input-block__button-send
-              start-trial-button
-              button-inactive
-              mt-5
-            "
+            class="input-block__button-send start-trial-button button-inactive mt-5"
           >
             Send
           </button>
@@ -836,12 +578,7 @@
             </ul>
           </div>
           <div
-            class="
-              footer__bottom-items-container
-              row
-              justify-content-between
-              mt-15
-            "
+            class="footer__bottom-items-container row justify-content-between mt-15"
           >
             <p class="footer__bottom-item col-3">
               © 2019 Grayic. All rights reserved
@@ -852,13 +589,7 @@
               <span class="">Site map</span>
             </div>
             <div
-              class="
-                footer__bottom-item footer__bottom-item-brands
-                d-flex
-                flex-row
-                col-2
-                justify-content-end
-              "
+              class="footer__bottom-item footer__bottom-item-brands d-flex flex-row col-2 justify-content-end"
             >
               <a href="https://twitter.com/">
                 <img
@@ -892,7 +623,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="assets/slick/slick.min.js"></script>
-    <script src="assets/scripts/script.js"></script>
+    <script src="scripts/slick/slick.min.js"></script>
+    <script src="scripts/index.js" type="module"></script>
   </body>
 </html>

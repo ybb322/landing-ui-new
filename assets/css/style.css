@@ -901,6 +901,7 @@ body {
 
 .build-better__title {
   color: black;
+  max-width: 436px;
 }
 .build-better__subtitle {
   font-size: 18px;
@@ -916,7 +917,7 @@ body {
   border-radius: 5px;
 }
 .build-better__img-1-wrapper {
-  margin-left: 230px;
+  margin-left: 225px;
   position: relative;
   top: 60px;
   z-index: 0;
@@ -1030,6 +1031,7 @@ body {
   color: black;
 }
 .choose-plan__price-currency {
+  vertical-align: super;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: -1.2px;
@@ -1178,6 +1180,7 @@ body {
 }
 .input-block__attachment {
   width: 456px;
+  font-size: 14px;
 }
 .input-block__button-send {
   width: 456px;
