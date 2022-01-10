@@ -9,6 +9,7 @@
 html {
   font: {
     family: inter, sans-serif;
+    weight: 400;
   }
 }
 
@@ -95,7 +96,6 @@ body {
   &__subtitle {
     @include subtitle;
     color: $color-grey-darken-1;
-    font-weight: 400;
     margin: 0;
     text-align: center;
     max-width: 300px;
@@ -223,13 +223,12 @@ body {
   }
   &__subtitle {
     @include subtitle;
-    font-weight: 100;
     color: $color-grey-darken-1;
     max-width: 750px;
     text-align: center;
   }
   &__toggle-buttons {
-    font-weight: 700;
+    font-weight: 600;
     @include border;
     width: 250px;
     border-radius: 23px;
@@ -298,7 +297,6 @@ body {
     max-width: 230px;
   }
   &__bonus-list {
-    font-weight: 400;
     position: relative;
     right: 28px;
   }
@@ -308,7 +306,6 @@ body {
     color: $color-black;
   }
   &__bonus .crossed {
-    font-weight: 100;
     text-decoration: line-through;
     color: $color-text-crossed;
   }
@@ -356,7 +353,6 @@ body {
   }
   &__quote {
     @include subtitle;
-    font-weight: 500;
     letter-spacing: -0.1px;
     max-width: 274px;
     min-height: 165px;
@@ -365,7 +361,7 @@ body {
   }
   &__name {
     @include subtitle-2;
-    font-weight: bold;
+    font-weight: 700;
     color: $color-grey-darken-1;
   }
   &__from {
