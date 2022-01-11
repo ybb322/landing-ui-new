@@ -344,6 +344,7 @@ body {
   &__items {
     @include border;
     border-radius: 10px;
+    overflow: hidden;
   }
   &__quote-mark {
     font-size: 98px;
@@ -374,6 +375,10 @@ body {
   &__person-info-container {
     height: 100%;
   }
+}
+
+.border-grey {
+  border-right: 1px solid $color-grey-border;
 }
 
 .manage-your-team {

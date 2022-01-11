@@ -1119,6 +1119,7 @@ body {
 .reviews__items {
   border: 1px solid #e8e8ea;
   border-radius: 10px;
+  overflow: hidden;
 }
 .reviews__quote-mark {
   font-size: 98px;
@@ -1152,6 +1153,10 @@ body {
 }
 .reviews__person-info-container {
   height: 100%;
+}
+
+.border-grey {
+  border-right: 1px solid #e8e8ea;
 }
 
 .manage-your-team__title {
