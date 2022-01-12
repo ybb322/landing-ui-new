@@ -14,8 +14,13 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin: 0 auto;
   font-family: inter;
+}
+
+section {
+  margin-top: 120px;
 }
 
 .header {
@@ -26,6 +31,7 @@ body {
 }
 
 .hero {
+  margin-top: 0;
   width: 100%;
   background-image: url(/assets/images/hero/hero-bg.png), $blue-gradient;
   background-position: top;
@@ -89,8 +95,6 @@ body {
   }
   &__title {
     color: $color-black;
-    font-size: 22px;
-    line-height: 34px;
     text-align: center;
   }
   &__subtitle {
@@ -145,6 +149,7 @@ body {
 }
 
 .build-better {
+  margin-top: 0;
   &__title {
     color: $color-black;
     max-width: 436px;
@@ -154,17 +159,15 @@ body {
     max-width: 436px;
     color: $color-grey-darken-1;
   }
-  &__img-wrapper {
-    position: relative;
-  }
   &__img-1 {
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
     border-radius: 5px;
   }
   &__img-1-wrapper {
+    box-sizing: border-box;
+    top: 60px;
     margin-left: 225px;
     position: relative;
-    top: 60px;
     z-index: 0;
   }
   &__img-2 {
@@ -173,7 +176,6 @@ body {
   }
   &__img-2-wrapper {
     position: relative;
-    z-index: 2;
     margin-top: -500px;
   }
   &__img-gradient {
@@ -187,6 +189,7 @@ body {
 }
 
 .hero-2 {
+  margin-top: 0;
   background: $hero-2-background;
   background-image: url(../images/hero-2/hero-2-bg.png);
   background-size: cover;
@@ -383,8 +386,6 @@ body {
 
 .manage-your-team {
   &__title {
-    font-size: 28px;
-    line-height: 50px;
     color: $color-black;
   }
 }
@@ -441,6 +442,7 @@ body {
 
 .footer {
   &-bg {
+    margin-top: 0;
     background: $blue-gradient;
     height: max-content;
   }
