@@ -1004,6 +1004,9 @@ section {
   max-width: 750px;
 }
 
+.choose-plan-background {
+  margin-top: 0;
+}
 .choose-plan__title {
   text-align: center;
   color: black;

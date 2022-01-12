@@ -220,6 +220,9 @@ section {
 }
 
 .choose-plan {
+  &-background {
+    margin-top: 0;
+  }
   &__title {
     text-align: center;
     color: $color-black;
