@@ -714,22 +714,6 @@ p {
   margin: 60px;
 }
 
-.mt-default {
-  margin-top: 120px;
-}
-
-.mb-default {
-  margin-bottom: 120px;
-}
-
-.pt-default {
-  padding-top: 120px;
-}
-
-.pb-default {
-  padding-bottom: 120px;
-}
-
 h1,
 h2,
 h3,
@@ -791,7 +775,8 @@ body {
 }
 
 section {
-  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .header__nav {
@@ -801,7 +786,6 @@ section {
 }
 
 .hero {
-  margin-top: 0;
   width: 100%;
   background-image: url(/assets/images/hero/hero-bg.png), linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
   background-position: top;
@@ -927,9 +911,6 @@ section {
   color: #323232;
 }
 
-.build-better {
-  margin-top: 0;
-}
 .build-better__title {
   color: black;
   max-width: 436px;
@@ -945,11 +926,9 @@ section {
   border-radius: 5px;
 }
 .build-better__img-1-wrapper {
-  top: 65px;
-  margin-left: 225px;
-  margin-bottom: -60px;
+  margin-top: 5%;
   position: relative;
-  z-index: 0;
+  z-index: -1;
 }
 .build-better__img-2 {
   box-shadow: 0px 22px 54px rgba(0, 0, 0, 0.136011);
@@ -957,19 +936,19 @@ section {
 }
 .build-better__img-2-wrapper {
   position: relative;
-  margin-top: -490px;
+  margin-right: -26%;
+  box-sizing: border-box;
 }
 .build-better__img-gradient {
   z-index: 1;
-  position: relative;
-  top: -180px;
-  width: 320px;
-  height: 192px;
+  position: absolute;
+  top: 45%;
+  width: 105%;
+  height: 70%;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) -23.88%, #ffffff 100%);
 }
 
 .hero-2 {
-  margin-top: 0;
   background: #222d3d;
   background-image: url(../images/hero-2/hero-2-bg.png);
   background-size: cover;
@@ -1005,7 +984,7 @@ section {
 }
 
 .choose-plan-background {
-  margin-top: 0;
+  padding-bottom: 0;
 }
 .choose-plan__title {
   text-align: center;
@@ -1108,6 +1087,9 @@ section {
   color: #8e8e8e;
 }
 
+.brands {
+  padding-bottom: 0;
+}
 .brands__title {
   font-size: 16px;
   line-height: 28px;
@@ -1115,26 +1097,14 @@ section {
   text-align: center;
 }
 
-.growbots-logo {
-  width: 163px;
-  height: 35px;
+.brands .slick-track {
+  display: flex;
+  align-items: center;
 }
 
-.funnel-logo {
-  width: 191px;
-  height: 42px;
+.reviews {
+  padding-bottom: 0;
 }
-
-.digital-ocean-logo {
-  width: 197px;
-  height: 39px;
-}
-
-.sketch-logo {
-  width: 147px;
-  height: 39px;
-}
-
 .reviews__items {
   border: 1px solid #e8e8ea;
   border-radius: 10px;
@@ -1178,6 +1148,9 @@ section {
   border-right: 1px solid #e8e8ea;
 }
 
+.manage-your-team {
+  padding-bottom: 0;
+}
 .manage-your-team__title {
   color: black;
 }
@@ -1227,7 +1200,7 @@ section {
 }
 
 .footer-bg {
-  margin-top: 0;
+  padding: 0;
   background: linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
   height: max-content;
 }

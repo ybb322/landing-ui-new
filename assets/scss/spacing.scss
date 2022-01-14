@@ -52,19 +52,3 @@ $paddingNames: (
 
 @include create-paddings($step, $sides, $paddingNames);
 @include create-margins($step, $sides, $marginNames);
-
-.mt-default {
-  margin-top: 120px;
-}
-
-.mb-default {
-  margin-bottom: 120px;
-}
-
-.pt-default {
-  padding-top: 120px;
-}
-
-.pb-default {
-  padding-bottom: 120px;
-}
