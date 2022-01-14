@@ -221,9 +221,6 @@ section {
 }
 
 .choose-plan {
-  &-background {
-    padding-bottom: 0;
-  }
   &__title {
     text-align: center;
     color: $color-black;
@@ -323,7 +320,6 @@ section {
 }
 
 .brands {
-  padding-bottom: 0;
   &__title {
     @include subtitle-2;
     color: $color-grey-2;
@@ -337,7 +333,6 @@ section {
 }
 
 .reviews {
-  padding-bottom: 0;
   &__items {
     @include border;
     border-radius: 10px;
@@ -379,7 +374,6 @@ section {
 }
 
 .manage-your-team {
-  padding-bottom: 0;
   &__title {
     color: $color-black;
   }
@@ -389,8 +383,8 @@ section {
   background: linear-gradient(
     0deg,
     $background-color-grey 0%,
-    $background-color-grey 75%,
-    white 75%,
+    $background-color-grey 65%,
+    white 65%,
     white 100%
   );
   &__title {
@@ -436,11 +430,9 @@ section {
 }
 
 .footer {
-  &-bg {
-    padding: 0;
-    background: $blue-gradient;
-    height: max-content;
-  }
+  padding: 0;
+  background: $blue-gradient;
+  height: max-content;
   &__nav-container {
     width: 1100px;
   }

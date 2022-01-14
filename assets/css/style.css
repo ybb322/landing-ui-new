@@ -983,9 +983,6 @@ section {
   max-width: 750px;
 }
 
-.choose-plan-background {
-  padding-bottom: 0;
-}
 .choose-plan__title {
   text-align: center;
   color: black;
@@ -1087,9 +1084,6 @@ section {
   color: #8e8e8e;
 }
 
-.brands {
-  padding-bottom: 0;
-}
 .brands__title {
   font-size: 16px;
   line-height: 28px;
@@ -1102,9 +1096,6 @@ section {
   align-items: center;
 }
 
-.reviews {
-  padding-bottom: 0;
-}
 .reviews__items {
   border: 1px solid #e8e8ea;
   border-radius: 10px;
@@ -1148,15 +1139,12 @@ section {
   border-right: 1px solid #e8e8ea;
 }
 
-.manage-your-team {
-  padding-bottom: 0;
-}
 .manage-your-team__title {
   color: black;
 }
 
 .input-block {
-  background: linear-gradient(0deg, #f8fbfe 0%, #f8fbfe 75%, white 75%, white 100%);
+  background: linear-gradient(0deg, #f8fbfe 0%, #f8fbfe 65%, white 65%, white 100%);
 }
 .input-block__title {
   color: black;
@@ -1199,7 +1187,7 @@ section {
   display: none;
 }
 
-.footer-bg {
+.footer {
   padding: 0;
   background: linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
   height: max-content;
