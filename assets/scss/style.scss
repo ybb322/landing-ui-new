@@ -3,7 +3,7 @@
 @import "buttons";
 @import "mixins";
 @import "normalize";
-@import "spacing";
+@import "new-spacing";
 @import "typography";
 
 html {
@@ -430,12 +430,7 @@ section {
 }
 
 .footer {
-  padding: 0;
   background: $blue-gradient;
-  height: max-content;
-  &__nav-container {
-    width: 1100px;
-  }
   &__nav {
     li:first-child {
       font-size: 14px;
