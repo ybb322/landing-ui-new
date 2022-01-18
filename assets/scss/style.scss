@@ -37,10 +37,10 @@ section {
     height: 60px;
     width: 60px;
     padding: 0;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-out;
   }
   &__button.active {
-    left: 0%;
+    left: -15%;
   }
   &__button-line {
     position: relative;
@@ -78,16 +78,19 @@ section {
   &__mobile-nav {
     opacity: 0;
     position: relative;
-    left: 100px;
-    transition: all 0.3s ease-in;
+    left: 25%;
+    transition: all 0.3s ease-out;
+    visibility: hidden;
   }
   &__mobile-nav.active {
     opacity: 100%;
-    left: 0px;
+    left: -10%;
+    visibility: visible;
   }
 }
 
 .hero {
+  overflow: hidden;
   width: 100%;
   background-image: url(/assets/images/hero/hero-bg.png), $blue-gradient;
   background-position: top;

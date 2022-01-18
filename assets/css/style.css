@@ -5057,6 +5057,18 @@ h6,
     letter-spacing: -0.22px;
   }
 }
+@media screen and (max-width: 480px) {
+  h1,
+.text-h1 {
+    font-size: 29.9px;
+  }
+}
+@media screen and (max-width: 420px) {
+  h1,
+.text-h1 {
+    font-size: 25.3px;
+  }
+}
 html {
   font-family: inter, sans-serif;
   font-weight: 400;
@@ -5086,10 +5098,10 @@ section {
   height: 60px;
   width: 60px;
   padding: 0;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-out;
 }
 .header__button.active {
-  left: 0%;
+  left: -15%;
 }
 .header__button-line {
   position: relative;
@@ -5127,15 +5139,18 @@ section {
 .header__mobile-nav {
   opacity: 0;
   position: relative;
-  left: 100px;
-  transition: all 0.3s ease-in;
+  left: 25%;
+  transition: all 0.3s ease-out;
+  visibility: hidden;
 }
 .header__mobile-nav.active {
   opacity: 100%;
-  left: 0px;
+  left: -10%;
+  visibility: visible;
 }
 
 .hero {
+  overflow: hidden;
   width: 100%;
   background-image: url(/assets/images/hero/hero-bg.png), linear-gradient(315.06deg, #152649 5%, #4f525c 100%);
   background-position: top;

@@ -1,3 +1,17 @@
+@media screen and (min-width: 360px) {
+  section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .hero__content {
+    margin-top: 16px;
+  }
+}
 @media screen and (min-width: 480px) {
   section {
     padding-top: 48px;
@@ -7,15 +21,23 @@
   .header__nav {
     display: none;
   }
+
+  .hero__content {
+    margin-top: 16px;
+  }
 }
 @media screen and (min-width: 576px) {
   section {
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
 
   header .row {
     align-items: start;
+  }
+
+  .hero__content {
+    margin-top: 48px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -23,11 +45,19 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+
+  .hero__content {
+    margin-top: 64px;
+  }
 }
 @media screen and (min-width: 992px) {
   section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .hero__content {
+    margin-top: 80px;
   }
 }
 

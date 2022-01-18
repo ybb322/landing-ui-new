@@ -1,3 +1,19 @@
+//Headers steps
+$xsm-header-size: 0.85;
+$sm-header-size: 0.9;
+$md-header-size: 0.95;
+
+$h1-size-1: 0.95;
+$h1-size-2: 0.9;
+$h1-size-3: 0.85;
+$h1-size-4: 0.8;
+$h1-size-5: 0.75;
+$h1-size-6: 0.7;
+$h1-size-7: 0.65;
+$h1-size-8: 0.6;
+$h1-size-9: 0.55;
+$h1-size-10: 0.5;
+
 h1,
 h2,
 h3,
@@ -50,7 +66,7 @@ h6,
 @media screen and (max-width: 991px) {
   h1,
   .text-h1 {
-    font-size: $h1 * $md-header-size;
+    font-size: $h1 * $h1-size-1;
     line-height: 68px * $md-header-size;
     letter-spacing: -0.3px;
   }
@@ -89,7 +105,7 @@ h6,
 @media screen and (max-width: 767px) {
   h1,
   .text-h1 {
-    font-size: $h1 * $xsm-header-size;
+    font-size: $h1 * $h1-size-3;
     line-height: 68px * $sm-header-size;
     letter-spacing: -0.3px;
   }
@@ -128,7 +144,7 @@ h6,
 @media screen and (max-width: 575px) {
   h1,
   .text-h1 {
-    font-size: $h1 * $xxxsm-header-size;
+    font-size: $h1 * $h1-size-5;
     line-height: 68px * $xsm-header-size;
     letter-spacing: -0.3px;
   }
@@ -161,5 +177,19 @@ h6,
     font-size: $h6 * $xsm-header-size;
     line-height: 34px * $xsm-header-size;
     letter-spacing: -0.22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1,
+  .text-h1 {
+    font-size: $h1 * $h1-size-7;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1,
+  .text-h1 {
+    font-size: $h1 * $h1-size-9;
   }
 }
