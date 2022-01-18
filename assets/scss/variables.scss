@@ -65,9 +65,27 @@ $white-gradient: linear-gradient(
   #ffffff 100%
 );
 
+//Big paddings
+$default-padding: 120px;
+
 //Breakpoints
 $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
+
+//Typography
+$h1: 46px;
+$h2: 42px;
+$h3: 38px;
+$h4: 32px;
+$h5: 28px;
+$h6: 22px;
+
+//Headers steps
+$xxxsm-header-size: 0.75;
+$xxsm-header-size: 0.8;
+$xsm-header-size: 0.85;
+$sm-header-size: 0.9;
+$md-header-size: 0.95;

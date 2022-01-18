@@ -14,21 +14,34 @@
     />
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css">
   </head>
   <body>
     <main>
       <section class="hero pt-7">
         <div class="container">
           <header class="header">
-            <div class="row align-items-center justify-content-between">
-              <div class="header__logo col-2">
+            <div class="row align-items-center align-items-sm-start justify-content-between">
+              <div class="header__logo col-3">
                 <a href="#"
                   ><img src="assets/images/header/berlin-logo.svg" alt=""
                 /></a>
               </div>
-              <nav class="col-3">
+              <nav class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-3">
+                  <div class="header__mobile-menu-container d-md-none d-flex justify-content-end">
+                  <button class="header__button">
+                      <div class="header__button-line button-line-1"></div>
+                      <div class="header__button-line button-line-2"></div>
+                      <div class="header__button-line button-line-3"></div>
+                  </button>
+                  <ul class="header__mobile-nav">
+                  <a href="#"> <li class="header__nav-item pb-2">Demos</li></a>
+                  <a href="#"> <li class="header__nav-item pt-2 pb-2">Pages</li></a>
+                  <a href="#"> <li class="header__nav-item pt-2 pb-2">Support</li></a>
+                  </ul>
+                  </div>
                 <ul
-                  class="header__nav d-flex justify-content-between align-items-center mb-0 pa-0"
+                  class="header__nav d-md-flex d-sm-none justify-content-between align-items-center mb-0 pa-0"
                 >
                   <a href="#"> <li class="header__nav-item">Demos</li></a>
                   <a href="#"> <li class="header__nav-item">Pages</li></a>
@@ -48,13 +61,11 @@
             <button class="start-trial-button mt-7">
               Start free 14 days trial
             </button>
-            <p class="hero__sub-subtitle mt-3 mt-mb-15">
-              No credit card required
-            </p>
+            <p class="hero__sub-subtitle mt-3">No credit card required</p>
           </div>
         </div>
       </section>
-      <section class="advantages row">
+      <!--<section class="advantages">
         <div class="container pa-0">
           <div class="row justify-content-around">
             <div class="advantages__item col-3 pa-0">
@@ -74,8 +85,6 @@
               </div>
             </div>
 
-            <div class="advantages__line"></div>
-
             <div class="advantages__item col-3 pa-0">
               <div
                 class="advantages__green-circle circle d-flex justify-content-center align-items-center"
@@ -94,8 +103,6 @@
                 </p>
               </div>
             </div>
-
-            <div class="advantages__line"></div>
 
             <div class="advantages__item col-3 pa-0">
               <div
@@ -117,8 +124,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="manage-everything">
+      </section>-->
+      <!--<section class="manage-everything">
         <div class="container">
           <div class="row justify-content-between">
             <div class="manage-everything__img-wrapper col-6">
@@ -633,7 +640,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer>-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
       integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="

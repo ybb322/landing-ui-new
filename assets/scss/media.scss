@@ -1,0 +1,34 @@
+@import "variables";
+@media screen and (min-width: 480px) {
+  section {
+    padding-top: $default-padding * 0.4;
+    padding-bottom: $default-padding * 0.4;
+  }
+  .header__nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $sm) {
+  section {
+    padding-top: $default-padding * 0.6;
+    padding-bottom: $default-padding * 0.6;
+  }
+  header .row {
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: $md) {
+  section {
+    padding-top: $default-padding * 0.8;
+    padding-bottom: $default-padding * 0.8;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  section {
+    padding-top: $default-padding;
+    padding-bottom: $default-padding;
+  }
+}

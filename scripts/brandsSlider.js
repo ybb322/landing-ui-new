@@ -10,5 +10,3 @@ export let brandsSlider = $(document).ready(function () {
     swipeToSlide: true,
   });
 });
-
-console.log(brandsSlider);
