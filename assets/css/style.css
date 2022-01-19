@@ -5180,6 +5180,9 @@ section {
   color: #dbe4f1;
 }
 
+.advantages {
+  overflow: hidden;
+}
 .advantages .circle {
   margin: auto;
 }

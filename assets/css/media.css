@@ -42,8 +42,8 @@
 }
 @media screen and (min-width: 768px) {
   section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   .hero__content {
@@ -52,12 +52,18 @@
 }
 @media screen and (min-width: 992px) {
   section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .hero__content {
     margin-top: 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
