@@ -5035,7 +5035,8 @@ h6,
     letter-spacing: -0.22px;
   }
 
-  .manage-everything p {
+  .manage-everything p,
+.build-better p {
     margin: auto;
     text-align: center;
   }
@@ -5082,7 +5083,8 @@ h6,
     letter-spacing: -0.22px;
   }
 
-  .manage-everything h2 {
+  .manage-everything h2,
+.build-better h2 {
     margin: auto;
     max-width: 85%;
   }
@@ -5310,9 +5312,11 @@ section {
   color: #323232;
 }
 
+.build-better {
+  overflow: hidden;
+}
 .build-better__title {
   color: black;
-  max-width: 436px;
 }
 .build-better__subtitle {
   font-size: 18px;

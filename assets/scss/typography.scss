@@ -140,7 +140,8 @@ h6,
     line-height: 34px * $sm-header-size;
     letter-spacing: -0.22px;
   }
-  .manage-everything p {
+  .manage-everything p,
+  .build-better p {
     margin: auto;
     text-align: center;
   }
@@ -183,7 +184,8 @@ h6,
     line-height: 34px * $xsm-header-size;
     letter-spacing: -0.22px;
   }
-  .manage-everything h2 {
+  .manage-everything h2,
+  .build-better h2 {
     margin: auto;
     max-width: 85%;
   }
