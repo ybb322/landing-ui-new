@@ -12,3 +12,6 @@ headerNavButton.addEventListener("click", function () {
   headerNavButton.classList.toggle("active");
   headerMobileNav.classList.toggle("active");
 });
+
+let advantagesItem = document.querySelectorAll(".advantages__item");
+console.log(advantagesItem);

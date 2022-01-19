@@ -2,6 +2,7 @@
 
 .start-trial-button {
   transition: 0.15s all ease-out;
+  display: block;
   font-family: inter;
   background: $color-green;
   color: $color-green-darken-1;
@@ -36,5 +37,25 @@
   cursor: pointer;
   &:hover {
     background: $color-grey-lighten-1;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .start-trial-button {
+    margin: 28px auto;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $sm) {
+  .start-trial-button {
+    margin: 28px auto;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: $md) {
+  .manage-everything .start-trial-button,
+  .build-better .start-trial-button {
+    margin: 28px 0;
   }
 }

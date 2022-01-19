@@ -18,6 +18,7 @@
 }
 .start-trial-button {
   transition: 0.15s all ease-out;
+  display: block;
   font-family: inter;
   background: #50e3c2;
   color: #0f3d33;
@@ -55,6 +56,24 @@
   background: #dbe4f1;
 }
 
+@media screen and (max-width: 575px) {
+  .start-trial-button {
+    margin: 28px auto;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 576px) {
+  .start-trial-button {
+    margin: 28px auto;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .manage-everything .start-trial-button,
+.build-better .start-trial-button {
+    margin: 28px 0;
+  }
+}
 li {
   list-style: none;
 }
@@ -4985,6 +5004,7 @@ h6,
 .text-h2 {
     font-size: 37.8px;
     line-height: 45px;
+    text-align: center;
   }
 
   h3,
@@ -5013,6 +5033,11 @@ h6,
     font-size: 19.8px;
     line-height: 30.6px;
     letter-spacing: -0.22px;
+  }
+
+  .manage-everything p {
+    margin: auto;
+    text-align: center;
   }
 }
 @media screen and (max-width: 575px) {
@@ -5055,6 +5080,11 @@ h6,
     font-size: 18.7px;
     line-height: 28.9px;
     letter-spacing: -0.22px;
+  }
+
+  .manage-everything h2 {
+    margin: auto;
+    max-width: 85%;
   }
 }
 @media screen and (max-width: 480px) {

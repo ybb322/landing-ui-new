@@ -113,6 +113,7 @@ h6,
   .text-h2 {
     font-size: $h2 * $sm-header-size;
     line-height: 50px * $sm-header-size;
+    text-align: center;
   }
   h3,
   .text-h3 {
@@ -138,6 +139,10 @@ h6,
     font-size: $h6 * $sm-header-size;
     line-height: 34px * $sm-header-size;
     letter-spacing: -0.22px;
+  }
+  .manage-everything p {
+    margin: auto;
+    text-align: center;
   }
 }
 
@@ -177,6 +182,10 @@ h6,
     font-size: $h6 * $xsm-header-size;
     line-height: 34px * $xsm-header-size;
     letter-spacing: -0.22px;
+  }
+  .manage-everything h2 {
+    margin: auto;
+    max-width: 85%;
   }
 }
 

@@ -47,6 +47,14 @@
   .hero__content {
     margin-top: 80px * 0.8;
   }
+  .manage-everything__img-1,
+  .manage-everything__img-2 {
+    transform: scale(0.75);
+  }
+  .manage-everything__img-2-wrapper {
+    margin-top: -290px;
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: $lg) {
@@ -56,6 +64,14 @@
   }
   .hero__content {
     margin-top: 80px;
+  }
+  .manage-everything__img-1,
+  .manage-everything__img-2 {
+    transform: scale(1);
+  }
+  .manage-everything__img-2-wrapper {
+    margin-top: -290px;
+    margin-left: 140px;
   }
 }
 

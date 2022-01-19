@@ -49,6 +49,16 @@
   .hero__content {
     margin-top: 64px;
   }
+
+  .manage-everything__img-1,
+.manage-everything__img-2 {
+    transform: scale(0.75);
+  }
+
+  .manage-everything__img-2-wrapper {
+    margin-top: -290px;
+    margin-left: 20px;
+  }
 }
 @media screen and (min-width: 992px) {
   section {
@@ -58,6 +68,16 @@
 
   .hero__content {
     margin-top: 80px;
+  }
+
+  .manage-everything__img-1,
+.manage-everything__img-2 {
+    transform: scale(1);
+  }
+
+  .manage-everything__img-2-wrapper {
+    margin-top: -290px;
+    margin-left: 140px;
   }
 }
 @media screen and (min-width: 1200px) {
