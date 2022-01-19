@@ -91,6 +91,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .hero__content {
+    margin-top: 80px;
+  }
+
   section {
     padding-top: 120px;
     padding-bottom: 120px;

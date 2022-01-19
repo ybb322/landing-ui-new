@@ -96,6 +96,9 @@
 }
 
 @media screen and (min-width: $xl) {
+  .hero__content {
+    margin-top: 80px;
+  }
   section {
     padding-top: $default-padding;
     padding-bottom: $default-padding;
