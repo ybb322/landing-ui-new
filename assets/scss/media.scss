@@ -77,6 +77,12 @@
       left: -60%;
     }
   }
+  .choose-plan {
+    &__info-container,
+    &__button-container {
+      padding-left: 20%;
+    }
+  }
 }
 
 @media screen and (min-width: $lg) and (max-width: 1199px) {

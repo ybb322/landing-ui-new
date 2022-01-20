@@ -41,14 +41,18 @@
 }
 
 @media screen and (max-width: 575px) {
-  .start-trial-button {
+  .hero .start-trial-button,
+  .manage-everything .start-trial-button,
+  .build-better .start-trial-button {
     margin: 28px auto;
     margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: $sm) {
-  .start-trial-button {
+  .hero .start-trial-button,
+  .manage-everything .start-trial-button,
+  .build-better .start-trial-button {
     margin: 28px auto;
     margin-bottom: 0;
   }
