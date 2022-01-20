@@ -145,6 +145,12 @@ h6,
     margin: auto;
     text-align: center;
   }
+
+  .hero-2 p,
+  .hero-2 h2 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 575px) {
