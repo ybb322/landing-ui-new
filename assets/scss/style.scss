@@ -422,9 +422,6 @@ section {
     @include subtitle-3;
     color: $color-grey-darken-1;
   }
-  &__person-info {
-    justify-self: end;
-  }
   &__person-info-container {
     height: 100%;
   }

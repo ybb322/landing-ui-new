@@ -12,6 +12,15 @@
     margin-top: 16px;
   }
 }
+@media screen and (min-width: 360px) and (max-width: 575px) {
+  .reviews__items {
+    max-width: 90%;
+  }
+
+  .reviews__quote {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 480px) {
   section {
     padding-top: 48px;
@@ -38,6 +47,14 @@
 
   .hero__content {
     margin-top: 48px;
+  }
+
+  .reviews__quote {
+    text-align: center;
+  }
+
+  .reviews__items {
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {

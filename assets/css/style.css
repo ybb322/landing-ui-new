@@ -5541,9 +5541,6 @@ section {
   letter-spacing: -0.3px;
   color: #323232;
 }
-.reviews__person-info {
-  justify-self: end;
-}
 .reviews__person-info-container {
   height: 100%;
 }

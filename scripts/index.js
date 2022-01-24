@@ -1,4 +1,4 @@
-//import "./toggleButtons.js";
+import "./toggleButtons.js";
 import "./brandsSlider.js";
 import "./reviewsSlider.js";
 
@@ -14,4 +14,3 @@ headerNavButton.addEventListener("click", function () {
 });
 
 let advantagesItem = document.querySelectorAll(".advantages__item");
-console.log(advantagesItem);
