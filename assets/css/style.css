@@ -5560,7 +5560,8 @@ section {
   color: black;
 }
 .input-block__input-background {
-  width: 558px;
+  max-width: 558px;
+  width: 90%;
   background-color: white;
   border: 1px solid #e8e8ea;
   box-shadow: 0px 22px 54px rgba(67, 87, 138, 0.29);
@@ -5570,7 +5571,7 @@ section {
   color: #323232;
 }
 .input-block__input-item {
-  width: 456px;
+  width: 80%;
   font-size: 14px;
   line-height: 50px;
   letter-spacing: -0.3px;
@@ -5581,11 +5582,11 @@ section {
   outline: none;
 }
 .input-block__attachment {
-  width: 456px;
+  width: 80%;
   font-size: 14px;
 }
 .input-block__button-send {
-  width: 456px;
+  width: 80%;
 }
 .input-block__attach-button:hover {
   cursor: pointer;

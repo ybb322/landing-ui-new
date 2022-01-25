@@ -449,7 +449,8 @@ section {
     color: $color-black;
   }
   &__input-background {
-    width: 558px;
+    max-width: 558px;
+    width: 90%;
     background-color: $color-white;
     @include border;
     box-shadow: 0px 22px 54px $color-shadow-blue;
@@ -459,7 +460,7 @@ section {
     color: $color-grey-darken-1;
   }
   &__input-item {
-    width: 456px;
+    width: 80%;
     font-size: 14px;
     line-height: 50px;
     letter-spacing: -0.3px;
@@ -470,12 +471,15 @@ section {
     }
   }
   &__attachment {
-    width: 456px;
+    width: 80%;
     font-size: 14px;
   }
   &__button-send {
-    width: 456px;
+    width: 80%;
   }
+  //  .attach-button {
+  //    width: 150px;
+  //  }
   &__attach-button:hover {
     cursor: pointer;
   }
