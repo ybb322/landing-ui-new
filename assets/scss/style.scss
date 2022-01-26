@@ -492,6 +492,7 @@ section {
 }
 
 .footer {
+  overflow: hidden;
   background: $blue-gradient;
   &__nav {
     li:first-child {

@@ -20,6 +20,15 @@
   .reviews__quote {
     text-align: center;
   }
+
+  .footer__nav {
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .footer__bottom-item {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 480px) {
   section {
@@ -55,6 +64,11 @@
 
   .reviews__items {
     max-width: 100%;
+  }
+
+  .footer__nav {
+    text-align: center;
+    margin-top: 44px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
